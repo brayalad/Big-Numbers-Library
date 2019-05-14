@@ -12,19 +12,19 @@
 *.pch
 
 # Compiled Dynamic libraries
-#*.so
-#*.dylib
-#*.dll
+*.so
+*.dylib
+*.dll
 
 # Fortran module files
 *.mod
 *.smod
 
 # Compiled Static libraries
-#*.lai
-#*.la
-#*.a
-#*.lib
+*.lai
+*.la
+*.a
+*.lib
 
 # Executables
 *.exe
@@ -39,3 +39,21 @@ DS_Store/*
 *.vscode/**/*
 .vscode/
 *.vscode/*
+
+#include library files
+!Linux/lib/Dynamic/Linux/lib/libBigNumbers.so
+!Linux/lib/Static/Linux/lib/libBigNumbers.a
+
+!MacOS/lib/Dynamic/MacOS/lib/libBigNumbers.dylib
+!MacOS/lib/Static/MacOS/lib/libBigNumbers.a
+
+!Windows/lib/Dynamic/Windows/MinGW 32-bit/lib/libBigNumbers.dll
+!Windows/lib/Dynamic/Windows/MinGW 32-bit/lib/libBigNumbers.dll.a
+!Windows/lib/Dynamic/Windows/Visual Studio 2019 32-bit/lib/BigNumbers.dll
+!Windows/lib/Dynamic/Windows/Visual Studio 2019 32-bit/lib/BigNumbers.ilk
+!Windows/lib/Dynamic/Windows/Visual Studio 2019 64-bit/lib/BigNumbers.dll
+!Windows/lib/Dynamic/Windows/Visual Studio 2019 64-bit/lib/BigNumbers.ilk
+
+!Windows/lib/Static\Windows\MinGW 32-bit\lib\libBigNumbers.a
+!Windows/lib/Static\Windows\Visual Studio 2019 32-bit\lib\BigNumbers.lib
+!Windows/lib/Static\Windows\Visual Studio 2019 64-bit\lib\BigNumbers.lib
