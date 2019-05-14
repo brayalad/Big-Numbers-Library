@@ -337,7 +337,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="227" column="1" bodyfile="src/BigNumber.cpp" bodystart="734" bodyend="737"/>
+        <location file="headers/BigNumber.h" line="227" column="1" bodyfile="src/BigNumber.cpp" bodystart="744" bodyend="747"/>
       </memberdef>
       <memberdef kind="friend" id="class_big_nums_1_1_big_number_1ab90a430bf6202a4f133fc915101cd929" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -409,7 +409,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="245" column="1" bodyfile="src/BigNumber.cpp" bodystart="739" bodyend="742"/>
+        <location file="headers/BigNumber.h" line="245" column="1" bodyfile="src/BigNumber.cpp" bodystart="749" bodyend="752"/>
       </memberdef>
       <memberdef kind="friend" id="class_big_nums_1_1_big_number_1abafc9bc65d3cf2b1a87fe226d37b107c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -469,7 +469,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="261" column="1" bodyfile="src/BigNumber.cpp" bodystart="744" bodyend="747"/>
+        <location file="headers/BigNumber.h" line="261" column="1" bodyfile="src/BigNumber.cpp" bodystart="754" bodyend="757"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="user-defined">
@@ -512,7 +512,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="272" column="1" bodyfile="src/BigNumber.cpp" bodystart="749" bodyend="752"/>
+        <location file="headers/BigNumber.h" line="272" column="1" bodyfile="src/BigNumber.cpp" bodystart="759" bodyend="762"/>
       </memberdef>
       <memberdef kind="friend" id="class_big_nums_1_1_big_number_1ad33abbbc2055753a8b76762a6d5ef947" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -584,7 +584,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="288" column="1" bodyfile="src/BigNumber.cpp" bodystart="754" bodyend="757"/>
+        <location file="headers/BigNumber.h" line="288" column="1" bodyfile="src/BigNumber.cpp" bodystart="764" bodyend="767"/>
       </memberdef>
       <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a90fc1955ccdc202a1d41857dbe8a81a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -656,7 +656,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="306" column="1" bodyfile="src/BigNumber.cpp" bodystart="759" bodyend="762"/>
+        <location file="headers/BigNumber.h" line="306" column="1" bodyfile="src/BigNumber.cpp" bodystart="769" bodyend="772"/>
       </memberdef>
       <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a17162af4b3ce281f1ac33820450986cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -728,7 +728,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="330" column="1" bodyfile="src/BigNumber.cpp" bodystart="769" bodyend="772"/>
+        <location file="headers/BigNumber.h" line="330" column="1" bodyfile="src/BigNumber.cpp" bodystart="779" bodyend="782"/>
       </memberdef>
       <memberdef kind="friend" id="class_big_nums_1_1_big_number_1add1b48504a6361ebffcef3c2b9fb5958" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -808,7 +808,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="348" column="1" bodyfile="src/BigNumber.cpp" bodystart="774" bodyend="777"/>
+        <location file="headers/BigNumber.h" line="348" column="1" bodyfile="src/BigNumber.cpp" bodystart="784" bodyend="787"/>
       </memberdef>
       <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a06943b4fe9e60b40857108c3d1a40c4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -952,7 +952,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="380" column="1" bodyfile="src/BigNumber.cpp" bodystart="826" bodyend="829"/>
+        <location file="headers/BigNumber.h" line="380" column="1" bodyfile="src/BigNumber.cpp" bodystart="836" bodyend="839"/>
       </memberdef>
       <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a8d081ba4f8cf93e90d74dbe013695b1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1096,7 +1096,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="412" column="1" bodyfile="src/BigNumber.cpp" bodystart="836" bodyend="839"/>
+        <location file="headers/BigNumber.h" line="412" column="1" bodyfile="src/BigNumber.cpp" bodystart="846" bodyend="849"/>
       </memberdef>
       <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a05bfb6df81cae921364aec33df340215" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1277,7 +1277,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="89" column="1" bodyfile="src/BigNumber.cpp" bodystart="368" bodyend="464"/>
+        <location file="headers/BigNumber.h" line="89" column="1" bodyfile="src/BigNumber.cpp" bodystart="368" bodyend="474"/>
       </memberdef>
       <memberdef kind="function" id="class_big_nums_1_1_big_number_1a55f83d787d248c55d9df8347c2fcb7ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -1306,7 +1306,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="96" column="1" bodyfile="src/BigNumber.cpp" bodystart="466" bodyend="509"/>
+        <location file="headers/BigNumber.h" line="96" column="1" bodyfile="src/BigNumber.cpp" bodystart="476" bodyend="519"/>
       </memberdef>
       <memberdef kind="function" id="class_big_nums_1_1_big_number_1a1d7839794fa1b9dd285e017443d1859a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -1335,7 +1335,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="103" column="1" bodyfile="src/BigNumber.cpp" bodystart="511" bodyend="553"/>
+        <location file="headers/BigNumber.h" line="103" column="1" bodyfile="src/BigNumber.cpp" bodystart="521" bodyend="563"/>
       </memberdef>
       <memberdef kind="function" id="class_big_nums_1_1_big_number_1a3b66caf45f60c11461d9f747c2245aa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -1364,7 +1364,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="110" column="1" bodyfile="src/BigNumber.cpp" bodystart="555" bodyend="581"/>
+        <location file="headers/BigNumber.h" line="110" column="1" bodyfile="src/BigNumber.cpp" bodystart="565" bodyend="591"/>
       </memberdef>
       <memberdef kind="function" id="class_big_nums_1_1_big_number_1a1f81565a354b88000e6fa6657bd138c6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const std::string</type>
@@ -1380,7 +1380,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="116" column="1" bodyfile="src/BigNumber.cpp" bodystart="583" bodyend="594"/>
+        <location file="headers/BigNumber.h" line="116" column="1" bodyfile="src/BigNumber.cpp" bodystart="593" bodyend="604"/>
       </memberdef>
       <memberdef kind="function" id="class_big_nums_1_1_big_number_1a4fb18fef2725c13a977ef6545563e361" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>long long int</type>
@@ -1396,7 +1396,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="122" column="1" bodyfile="src/BigNumber.cpp" bodystart="596" bodyend="605"/>
+        <location file="headers/BigNumber.h" line="122" column="1" bodyfile="src/BigNumber.cpp" bodystart="606" bodyend="615"/>
       </memberdef>
       <memberdef kind="function" id="class_big_nums_1_1_big_number_1af8f5505982e08fb73817cba94e70ff1c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; char &gt;</type>
@@ -1412,7 +1412,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="128" column="1" bodyfile="src/BigNumber.cpp" bodystart="607" bodyend="610"/>
+        <location file="headers/BigNumber.h" line="128" column="1" bodyfile="src/BigNumber.cpp" bodystart="617" bodyend="620"/>
       </memberdef>
       <memberdef kind="function" id="class_big_nums_1_1_big_number_1a02c53d5b7c27e3b80c5f8ee5982a8875" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -1428,7 +1428,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="134" column="1" bodyfile="src/BigNumber.cpp" bodystart="612" bodyend="631"/>
+        <location file="headers/BigNumber.h" line="134" column="1" bodyfile="src/BigNumber.cpp" bodystart="622" bodyend="641"/>
       </memberdef>
       <memberdef kind="function" id="class_big_nums_1_1_big_number_1a7e47aaceaeacdfa5685158daa230dbfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -1478,7 +1478,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="153" column="1" bodyfile="src/BigNumber.cpp" bodystart="633" bodyend="645"/>
+        <location file="headers/BigNumber.h" line="153" column="1" bodyfile="src/BigNumber.cpp" bodystart="643" bodyend="655"/>
       </memberdef>
       <memberdef kind="function" id="class_big_nums_1_1_big_number_1a440be0c0feaf4be408ed8f7fa6b42926" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -1494,7 +1494,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="159" column="1" bodyfile="src/BigNumber.cpp" bodystart="647" bodyend="665"/>
+        <location file="headers/BigNumber.h" line="159" column="1" bodyfile="src/BigNumber.cpp" bodystart="657" bodyend="675"/>
       </memberdef>
       <memberdef kind="function" id="class_big_nums_1_1_big_number_1af459e1abf1ec5721b7288979e71cd672" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1523,7 +1523,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="166" column="1" bodyfile="src/BigNumber.cpp" bodystart="667" bodyend="670"/>
+        <location file="headers/BigNumber.h" line="166" column="1" bodyfile="src/BigNumber.cpp" bodystart="677" bodyend="680"/>
       </memberdef>
       <memberdef kind="function" id="class_big_nums_1_1_big_number_1ae35841de4a2037e6edc02bcbf40600ba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>unsigned long long int</type>
@@ -1539,7 +1539,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="172" column="1" bodyfile="src/BigNumber.cpp" bodystart="672" bodyend="680"/>
+        <location file="headers/BigNumber.h" line="172" column="1" bodyfile="src/BigNumber.cpp" bodystart="682" bodyend="690"/>
       </memberdef>
       <memberdef kind="function" id="class_big_nums_1_1_big_number_1af5203c02639f6dc409016bfb4710dafc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1555,7 +1555,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="178" column="1" bodyfile="src/BigNumber.cpp" bodystart="682" bodyend="685"/>
+        <location file="headers/BigNumber.h" line="178" column="1" bodyfile="src/BigNumber.cpp" bodystart="692" bodyend="695"/>
       </memberdef>
       <memberdef kind="function" id="class_big_nums_1_1_big_number_1a8d1479eed46930fdcd374c85881c2864" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1571,7 +1571,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="184" column="1" bodyfile="src/BigNumber.cpp" bodystart="687" bodyend="690"/>
+        <location file="headers/BigNumber.h" line="184" column="1" bodyfile="src/BigNumber.cpp" bodystart="697" bodyend="700"/>
       </memberdef>
       <memberdef kind="function" id="class_big_nums_1_1_big_number_1abf9a23b42aa137baa8a040a6cf524cca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1587,7 +1587,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="190" column="1" bodyfile="src/BigNumber.cpp" bodystart="692" bodyend="695"/>
+        <location file="headers/BigNumber.h" line="190" column="1" bodyfile="src/BigNumber.cpp" bodystart="702" bodyend="705"/>
       </memberdef>
       <memberdef kind="function" id="class_big_nums_1_1_big_number_1afa4fe9880b4c307cd12ebbdbe94c28d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1603,7 +1603,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="196" column="1" bodyfile="src/BigNumber.cpp" bodystart="697" bodyend="700"/>
+        <location file="headers/BigNumber.h" line="196" column="1" bodyfile="src/BigNumber.cpp" bodystart="707" bodyend="710"/>
       </memberdef>
       <memberdef kind="function" id="class_big_nums_1_1_big_number_1ae4675cb61567802acb26e194d63ac454" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -1619,7 +1619,7 @@ Support for all data types <parameterlist kind="param"><parameteritem>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="202" column="1" bodyfile="src/BigNumber.cpp" bodystart="702" bodyend="713"/>
+        <location file="headers/BigNumber.h" line="202" column="1" bodyfile="src/BigNumber.cpp" bodystart="712" bodyend="723"/>
       </memberdef>
       <memberdef kind="function" id="class_big_nums_1_1_big_number_1abd9a823365d0e1f44b27adb87ce629cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -2019,7 +2019,7 @@ Assigns the right shift value of the current instance and _difBigNum to current 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="615" column="1" bodyfile="src/BigNumber.cpp" bodystart="1003" bodyend="1007"/>
+        <location file="headers/BigNumber.h" line="615" column="1" bodyfile="src/BigNumber.cpp" bodystart="1013" bodyend="1017"/>
       </memberdef>
       <memberdef kind="function" id="class_big_nums_1_1_big_number_1ada3ed05861f520f73182e42c9fb153cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
@@ -2035,7 +2035,7 @@ Assigns the right shift value of the current instance and _difBigNum to current 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="621" column="1" bodyfile="src/BigNumber.cpp" bodystart="1009" bodyend="1013"/>
+        <location file="headers/BigNumber.h" line="621" column="1" bodyfile="src/BigNumber.cpp" bodystart="1019" bodyend="1023"/>
       </memberdef>
       <memberdef kind="function" id="class_big_nums_1_1_big_number_1a62c972147e0c20614fa6f2b3831b15b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -2054,7 +2054,7 @@ Assigns the right shift value of the current instance and _difBigNum to current 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="627" column="1" bodyfile="src/BigNumber.cpp" bodystart="1015" bodyend="1020"/>
+        <location file="headers/BigNumber.h" line="627" column="1" bodyfile="src/BigNumber.cpp" bodystart="1025" bodyend="1030"/>
       </memberdef>
       <memberdef kind="function" id="class_big_nums_1_1_big_number_1ab6475de98159ef5398b22449f5333368" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -2073,7 +2073,7 @@ Assigns the right shift value of the current instance and _difBigNum to current 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="633" column="1" bodyfile="src/BigNumber.cpp" bodystart="1022" bodyend="1027"/>
+        <location file="headers/BigNumber.h" line="633" column="1" bodyfile="src/BigNumber.cpp" bodystart="1032" bodyend="1037"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="friend">
@@ -2116,7 +2116,7 @@ Assigns the right shift value of the current instance and _difBigNum to current 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="210" column="1" bodyfile="src/BigNumber.cpp" bodystart="715" bodyend="723"/>
+        <location file="headers/BigNumber.h" line="210" column="1" bodyfile="src/BigNumber.cpp" bodystart="725" bodyend="733"/>
       </memberdef>
       <memberdef kind="friend" id="class_big_nums_1_1_big_number_1adda5cd1a7aca6683ef84866af7e5bd0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>friend std::istream &amp;</type>
@@ -2198,7 +2198,7 @@ Assigns the right shift value of the current instance and _difBigNum to current 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="321" column="1" bodyfile="src/BigNumber.cpp" bodystart="764" bodyend="767"/>
+        <location file="headers/BigNumber.h" line="321" column="1" bodyfile="src/BigNumber.cpp" bodystart="774" bodyend="777"/>
       </memberdef>
       <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a177683ba51aeb898d01c71f978e7b437" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -2239,7 +2239,7 @@ Assigns the right shift value of the current instance and _difBigNum to current 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="427" column="1" bodyfile="src/BigNumber.cpp" bodystart="841" bodyend="869"/>
+        <location file="headers/BigNumber.h" line="427" column="1" bodyfile="src/BigNumber.cpp" bodystart="851" bodyend="879"/>
       </memberdef>
       <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a20db44e73666375cb56579d951ef87c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -2280,7 +2280,7 @@ Assigns the right shift value of the current instance and _difBigNum to current 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="435" column="1" bodyfile="src/BigNumber.cpp" bodystart="871" bodyend="899"/>
+        <location file="headers/BigNumber.h" line="435" column="1" bodyfile="src/BigNumber.cpp" bodystart="881" bodyend="909"/>
       </memberdef>
       <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a2e3512db297a67899d84f57ba0ec31f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -2321,7 +2321,7 @@ Assigns the right shift value of the current instance and _difBigNum to current 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="443" column="1" bodyfile="src/BigNumber.cpp" bodystart="901" bodyend="929"/>
+        <location file="headers/BigNumber.h" line="443" column="1" bodyfile="src/BigNumber.cpp" bodystart="911" bodyend="939"/>
       </memberdef>
       <memberdef kind="friend" id="class_big_nums_1_1_big_number_1ab6d6f57915676119fc27d509ffbc7aaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -2362,7 +2362,7 @@ Assigns the right shift value of the current instance and _difBigNum to current 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="451" column="1" bodyfile="src/BigNumber.cpp" bodystart="931" bodyend="940"/>
+        <location file="headers/BigNumber.h" line="451" column="1" bodyfile="src/BigNumber.cpp" bodystart="941" bodyend="950"/>
       </memberdef>
       <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a79a63ab9c19b4fc86b225bbaba7435f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -2403,7 +2403,7 @@ Assigns the right shift value of the current instance and _difBigNum to current 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="459" column="1" bodyfile="src/BigNumber.cpp" bodystart="942" bodyend="951"/>
+        <location file="headers/BigNumber.h" line="459" column="1" bodyfile="src/BigNumber.cpp" bodystart="952" bodyend="961"/>
       </memberdef>
       <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a09ab9caa6f21204eed61e6e96e9e72cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -2432,7 +2432,7 @@ Assigns the right shift value of the current instance and _difBigNum to current 
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="466" column="1" bodyfile="src/BigNumber.cpp" bodystart="953" bodyend="971"/>
+        <location file="headers/BigNumber.h" line="466" column="1" bodyfile="src/BigNumber.cpp" bodystart="963" bodyend="981"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

@@ -2,7 +2,7 @@
 #include <cmath>
 #include <climits>
 
-#include "include/BigNumber.h"
+#include "../include/BigNumber.h"
 
 namespace BigNums {
 
@@ -405,6 +405,16 @@ namespace BigNums {
         if (largerNum == BigNumber(0) || smallerNum == BigNumber(0))
         {
             return BigNumber(0);
+        }
+
+        if(largerNum == BigNumber(1) || smallerNum == BigNumber(1))
+        {
+            if(largerNum == BigNumber(1) && smallerNum == BigNumber(1))
+            {
+                return BigNumber(1);
+            }
+
+            return largerNum > smallerNum ? largerNum : smallerNum;
         }
 
         int carry = 0;

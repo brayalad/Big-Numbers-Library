@@ -995,7 +995,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="headers/BigNumber.h" line="888" column="1" bodyfile="src/BigNumber.cpp" bodystart="1029" bodyend="1046"/>
+        <location file="headers/BigNumber.h" line="888" column="1" bodyfile="src/BigNumber.cpp" bodystart="1039" bodyend="1056"/>
       </memberdef>
       <memberdef kind="function" id="namespace_big_nums_1aa974f80c6eaffabdcb244efbfc8ef40f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::ostream &amp;</type>
@@ -1036,7 +1036,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/BigNumber.cpp" line="715" column="1" bodyfile="src/BigNumber.cpp" bodystart="715" bodyend="723"/>
+        <location file="src/BigNumber.cpp" line="725" column="1" bodyfile="src/BigNumber.cpp" bodystart="725" bodyend="733"/>
       </memberdef>
       <memberdef kind="function" id="namespace_big_nums_1a842a1460ed950581d97b842d8fb42910" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::istream &amp;</type>
@@ -1057,7 +1057,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/BigNumber.cpp" line="725" column="1" bodyfile="src/BigNumber.cpp" bodystart="725" bodyend="732"/>
+        <location file="src/BigNumber.cpp" line="735" column="1" bodyfile="src/BigNumber.cpp" bodystart="735" bodyend="742"/>
       </memberdef>
       <memberdef kind="function" id="namespace_big_nums_1a43db6cb13170c6129a77c057ef76017e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -1098,7 +1098,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/BigNumber.cpp" line="734" column="1" bodyfile="src/BigNumber.cpp" bodystart="734" bodyend="737"/>
+        <location file="src/BigNumber.cpp" line="744" column="1" bodyfile="src/BigNumber.cpp" bodystart="744" bodyend="747"/>
       </memberdef>
       <memberdef kind="function" id="namespace_big_nums_1a45951a2fb9f239876c94c8917b4d7ad1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -1139,7 +1139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/BigNumber.cpp" line="739" column="1" bodyfile="src/BigNumber.cpp" bodystart="739" bodyend="742"/>
+        <location file="src/BigNumber.cpp" line="749" column="1" bodyfile="src/BigNumber.cpp" bodystart="749" bodyend="752"/>
       </memberdef>
       <memberdef kind="function" id="namespace_big_nums_1afc1c2c149134a0b2a64347c14d96946d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -1168,7 +1168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/BigNumber.cpp" line="744" column="1" bodyfile="src/BigNumber.cpp" bodystart="744" bodyend="747"/>
+        <location file="src/BigNumber.cpp" line="754" column="1" bodyfile="src/BigNumber.cpp" bodystart="754" bodyend="757"/>
       </memberdef>
       <memberdef kind="function" id="namespace_big_nums_1a04ca82b2b679febecf3ac11a4fd58db1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -1209,7 +1209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/BigNumber.cpp" line="749" column="1" bodyfile="src/BigNumber.cpp" bodystart="749" bodyend="752"/>
+        <location file="src/BigNumber.cpp" line="759" column="1" bodyfile="src/BigNumber.cpp" bodystart="759" bodyend="762"/>
       </memberdef>
       <memberdef kind="function" id="namespace_big_nums_1a5f3c743438ecf988d979eceb658f9cf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -1250,7 +1250,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/BigNumber.cpp" line="754" column="1" bodyfile="src/BigNumber.cpp" bodystart="754" bodyend="757"/>
+        <location file="src/BigNumber.cpp" line="764" column="1" bodyfile="src/BigNumber.cpp" bodystart="764" bodyend="767"/>
       </memberdef>
       <memberdef kind="function" id="namespace_big_nums_1ae7b3fba15d931353b415566997ad2bd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -1291,7 +1291,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/BigNumber.cpp" line="759" column="1" bodyfile="src/BigNumber.cpp" bodystart="759" bodyend="762"/>
+        <location file="src/BigNumber.cpp" line="769" column="1" bodyfile="src/BigNumber.cpp" bodystart="769" bodyend="772"/>
       </memberdef>
       <memberdef kind="function" id="namespace_big_nums_1a26f4f7080ee4ac682138c92ad0ce7f75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -1332,7 +1332,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/BigNumber.cpp" line="764" column="1" bodyfile="src/BigNumber.cpp" bodystart="764" bodyend="767"/>
+        <location file="src/BigNumber.cpp" line="774" column="1" bodyfile="src/BigNumber.cpp" bodystart="774" bodyend="777"/>
       </memberdef>
       <memberdef kind="function" id="namespace_big_nums_1a850a2334f2158f7bbe71d1c6e9fad531" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1373,7 +1373,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/BigNumber.cpp" line="769" column="1" bodyfile="src/BigNumber.cpp" bodystart="769" bodyend="772"/>
+        <location file="src/BigNumber.cpp" line="779" column="1" bodyfile="src/BigNumber.cpp" bodystart="779" bodyend="782"/>
       </memberdef>
       <memberdef kind="function" id="namespace_big_nums_1a4b4f66727acdbc37dadbf1da8170b088" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1414,7 +1414,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/BigNumber.cpp" line="774" column="1" bodyfile="src/BigNumber.cpp" bodystart="774" bodyend="777"/>
+        <location file="src/BigNumber.cpp" line="784" column="1" bodyfile="src/BigNumber.cpp" bodystart="784" bodyend="787"/>
       </memberdef>
       <memberdef kind="function" id="namespace_big_nums_1a8da493ab5dba979579d6ceeec7b1ac14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1435,7 +1435,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/BigNumber.cpp" line="779" column="1" bodyfile="src/BigNumber.cpp" bodystart="779" bodyend="824"/>
+        <location file="src/BigNumber.cpp" line="789" column="1" bodyfile="src/BigNumber.cpp" bodystart="789" bodyend="834"/>
       </memberdef>
       <memberdef kind="function" id="namespace_big_nums_1a3d130669f3794613ae13100178f0758c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1476,7 +1476,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/BigNumber.cpp" line="826" column="1" bodyfile="src/BigNumber.cpp" bodystart="826" bodyend="829"/>
+        <location file="src/BigNumber.cpp" line="836" column="1" bodyfile="src/BigNumber.cpp" bodystart="836" bodyend="839"/>
       </memberdef>
       <memberdef kind="function" id="namespace_big_nums_1afde1be123ae1b999f1913f801d6aa286" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1497,7 +1497,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/BigNumber.cpp" line="831" column="1" bodyfile="src/BigNumber.cpp" bodystart="831" bodyend="834"/>
+        <location file="src/BigNumber.cpp" line="841" column="1" bodyfile="src/BigNumber.cpp" bodystart="841" bodyend="844"/>
       </memberdef>
       <memberdef kind="function" id="namespace_big_nums_1a60e44068f20ee7b59d24f7147282eb2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -1538,7 +1538,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/BigNumber.cpp" line="836" column="1" bodyfile="src/BigNumber.cpp" bodystart="836" bodyend="839"/>
+        <location file="src/BigNumber.cpp" line="846" column="1" bodyfile="src/BigNumber.cpp" bodystart="846" bodyend="849"/>
       </memberdef>
       <memberdef kind="function" id="namespace_big_nums_1ab5839eac3b74ef69240811d21f09377c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -1579,7 +1579,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/BigNumber.cpp" line="841" column="1" bodyfile="src/BigNumber.cpp" bodystart="841" bodyend="869"/>
+        <location file="src/BigNumber.cpp" line="851" column="1" bodyfile="src/BigNumber.cpp" bodystart="851" bodyend="879"/>
       </memberdef>
       <memberdef kind="function" id="namespace_big_nums_1a3885538e918c8cb0cd96433da09462f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -1620,7 +1620,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/BigNumber.cpp" line="871" column="1" bodyfile="src/BigNumber.cpp" bodystart="871" bodyend="899"/>
+        <location file="src/BigNumber.cpp" line="881" column="1" bodyfile="src/BigNumber.cpp" bodystart="881" bodyend="909"/>
       </memberdef>
       <memberdef kind="function" id="namespace_big_nums_1a991aa6b41e534b73bab66446db5909b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -1661,7 +1661,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/BigNumber.cpp" line="901" column="1" bodyfile="src/BigNumber.cpp" bodystart="901" bodyend="929"/>
+        <location file="src/BigNumber.cpp" line="911" column="1" bodyfile="src/BigNumber.cpp" bodystart="911" bodyend="939"/>
       </memberdef>
       <memberdef kind="function" id="namespace_big_nums_1a7fae187d94a5f4c3869ca24f68826cef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -1702,7 +1702,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/BigNumber.cpp" line="931" column="1" bodyfile="src/BigNumber.cpp" bodystart="931" bodyend="940"/>
+        <location file="src/BigNumber.cpp" line="941" column="1" bodyfile="src/BigNumber.cpp" bodystart="941" bodyend="950"/>
       </memberdef>
       <memberdef kind="function" id="namespace_big_nums_1a461540d97b6da48dc4f771ab6c41a5f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -1743,7 +1743,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/BigNumber.cpp" line="942" column="1" bodyfile="src/BigNumber.cpp" bodystart="942" bodyend="951"/>
+        <location file="src/BigNumber.cpp" line="952" column="1" bodyfile="src/BigNumber.cpp" bodystart="952" bodyend="961"/>
       </memberdef>
       <memberdef kind="function" id="namespace_big_nums_1a9bdd811316d31ba358ef97ee09cbb011" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
@@ -1772,7 +1772,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="src/BigNumber.cpp" line="953" column="1" bodyfile="src/BigNumber.cpp" bodystart="953" bodyend="971"/>
+        <location file="src/BigNumber.cpp" line="963" column="1" bodyfile="src/BigNumber.cpp" bodystart="963" bodyend="981"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
