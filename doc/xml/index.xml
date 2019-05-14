@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.15">
+  <compound refid="class_big_nums_1_1_big_number" kind="class"><name>BigNums::BigNumber</name>
+    <member refid="class_big_nums_1_1_big_number_1a1567531627c79b2018363684cec9ed34" kind="function"><name>BigNumber</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a10752ca000f0362291294fc9d96a17fb" kind="function"><name>BigNumber</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a20b7a7fe3497b4ff501360eb6a3f2975" kind="function"><name>BigNumber</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a05b1e09de1d6504fb0d17abe59e1567e" kind="function"><name>BigNumber</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a403ae18d7626dc619160b46b7d94e3d4" kind="function"><name>BigNumber</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a10c73e0ca7d565c7f50907d88e653fcc" kind="function"><name>BigNumber</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a7ffb48df9f893148c553a4ffba013bd5" kind="function"><name>BigNumber</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a1a48f0ab5c66b95b98fba8e40371be90" kind="function"><name>BigNumber</name></member>
+    <member refid="class_big_nums_1_1_big_number_1ac9b6672f2bb3ef8da30635a83cc7d742" kind="function"><name>BigNumber</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a1e9851c75b436dfd943456c9f6fe7d5f" kind="function"><name>BigNumber</name></member>
+    <member refid="class_big_nums_1_1_big_number_1aff681535ca202ff247413e35e09388ad" kind="function"><name>BigNumber</name></member>
+    <member refid="class_big_nums_1_1_big_number_1afa8357b2be149b6f21f404e8cb95ebf2" kind="function"><name>BigNumber</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a2abf856e5d6fe96a174d6de3091580c5" kind="function"><name>BigNumber</name></member>
+    <member refid="class_big_nums_1_1_big_number_1aeb155e4d45721f93a813dc2dacacc914" kind="function"><name>BigNumber</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a02539ef464467b437b133dff855e67f0" kind="function"><name>BigNumber</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a3a065889297357cb69da1f503f017a27" kind="function"><name>BigNumber</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a09e060fefa8279c48d5a5f12fde8c802" kind="function"><name>~BigNumber</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a3d910bc1823b1290f26b1764a93e77ea" kind="friend"><name>operator+</name></member>
+    <member refid="class_big_nums_1_1_big_number_1ab90a430bf6202a4f133fc915101cd929" kind="friend"><name>operator+</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a9a4cb9889d9180fb6bc9bfdb1de1e8b9" kind="friend"><name>operator -</name></member>
+    <member refid="class_big_nums_1_1_big_number_1abafc9bc65d3cf2b1a87fe226d37b107c" kind="friend"><name>operator -</name></member>
+    <member refid="class_big_nums_1_1_big_number_1aa1017a29d47606c15545ea481c1f5dbf" kind="friend"><name>operator -</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a390a7b0928f684129947af34272b1def" kind="friend"><name>operator *</name></member>
+    <member refid="class_big_nums_1_1_big_number_1ad33abbbc2055753a8b76762a6d5ef947" kind="friend"><name>operator *</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a1f3bac79755532f059e42f08126001fe" kind="friend"><name>operator/</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a90fc1955ccdc202a1d41857dbe8a81a3" kind="friend"><name>operator/</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a22a2ab555ef01a5b6cdc31751156e4dd" kind="friend"><name>operator %</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a17162af4b3ce281f1ac33820450986cd" kind="friend"><name>operator %</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a895aa35eca34f84db8c543f23274040a" kind="friend"><name>operator==</name></member>
+    <member refid="class_big_nums_1_1_big_number_1add1b48504a6361ebffcef3c2b9fb5958" kind="friend"><name>operator==</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a7311ab2265ec5536725ffdc2dcfb7dcb" kind="friend"><name>operator !=</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a06943b4fe9e60b40857108c3d1a40c4b" kind="friend"><name>operator !=</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a73fd242189f8c8439d4f001681d1ae51" kind="friend"><name>operator&gt;</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a2333d6e7a2438bcea0672fb4dbfc7b91" kind="friend"><name>operator &gt;</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a5908b93d7477c482d145b878fa003101" kind="friend"><name>operator&lt;</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a8d081ba4f8cf93e90d74dbe013695b1c" kind="friend"><name>operator&lt;</name></member>
+    <member refid="class_big_nums_1_1_big_number_1aa64caabb2b7a6a9bc6fc28e1abf961e3" kind="friend"><name>operator&gt;=</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a7d9aa0ee821fabd568fad397d4274bc8" kind="friend"><name>operator &gt;=</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a787ad7c1ee1b244a545034fbe1e09431" kind="friend"><name>operator&lt;=</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a05bfb6df81cae921364aec33df340215" kind="friend"><name>operator&lt;=</name></member>
+    <member refid="class_big_nums_1_1_big_number_1ab3ebd73a1b9d6719be452f05f9e2ebce" kind="function"><name>operator[]</name></member>
+    <member refid="class_big_nums_1_1_big_number_1aa341f4a148c2d83057ccd78f7a048c41" kind="function"><name>operator[]</name></member>
+    <member refid="class_big_nums_1_1_big_number_1ab5806802010b10f842c14a2416c8161d" kind="variable"><name>numberValue</name></member>
+    <member refid="class_big_nums_1_1_big_number_1aead85993ce069442f7b15cca8c81df39" kind="function"><name>Add</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a505eed1769193372c05a1c41ae0e707b" kind="function"><name>Subtract</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a7d54b0defb30727ab99a110b1b6c07ff" kind="function"><name>Multiply</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a55f83d787d248c55d9df8347c2fcb7ed" kind="function"><name>Divide</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a1d7839794fa1b9dd285e017443d1859a" kind="function"><name>Mod</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a3b66caf45f60c11461d9f747c2245aa2" kind="function"><name>Pow</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a1f81565a354b88000e6fa6657bd138c6" kind="function"><name>GetString</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a4fb18fef2725c13a977ef6545563e361" kind="function"><name>GetInteger</name></member>
+    <member refid="class_big_nums_1_1_big_number_1af8f5505982e08fb73817cba94e70ff1c" kind="function"><name>GetNumberValue</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a02c53d5b7c27e3b80c5f8ee5982a8875" kind="function"><name>GetBinaryValue</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a7e47aaceaeacdfa5685158daa230dbfd" kind="function"><name>SetNumber</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a9f52fbb5f431c7d6a82e40f34e5b1f6e" kind="function"><name>Negate</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a440be0c0feaf4be408ed8f7fa6b42926" kind="function"><name>RemoveLeadingZeros</name></member>
+    <member refid="class_big_nums_1_1_big_number_1af459e1abf1ec5721b7288979e71cd672" kind="function"><name>Equals</name></member>
+    <member refid="class_big_nums_1_1_big_number_1ae35841de4a2037e6edc02bcbf40600ba" kind="function"><name>Digits</name></member>
+    <member refid="class_big_nums_1_1_big_number_1af5203c02639f6dc409016bfb4710dafc" kind="function"><name>IsNegative</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a8d1479eed46930fdcd374c85881c2864" kind="function"><name>IsPositive</name></member>
+    <member refid="class_big_nums_1_1_big_number_1abf9a23b42aa137baa8a040a6cf524cca" kind="function"><name>IsEven</name></member>
+    <member refid="class_big_nums_1_1_big_number_1afa4fe9880b4c307cd12ebbdbe94c28d2" kind="function"><name>IsOdd</name></member>
+    <member refid="class_big_nums_1_1_big_number_1ae4675cb61567802acb26e194d63ac454" kind="function"><name>Abs</name></member>
+    <member refid="class_big_nums_1_1_big_number_1abd9a823365d0e1f44b27adb87ce629cc" kind="function"><name>operator=</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a99a14e0f44f08f04dd686a8fb1251338" kind="function"><name>operator+=</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a2ac4094870ea13bc9b81c712dabe173e" kind="function"><name>operator -=</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a1fc741b943e941757495f5fc9663dd45" kind="function"><name>operator *=</name></member>
+    <member refid="class_big_nums_1_1_big_number_1adff2df5d7288c36d4ab7dfd0b6f5ede4" kind="function"><name>operator/=</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a697d3b997151dcb9e0fe10e5ac44676a" kind="function"><name>operator %=</name></member>
+    <member refid="class_big_nums_1_1_big_number_1af98f69c51b85dc6d7af162346d8c40f4" kind="function"><name>operator &amp;=</name></member>
+    <member refid="class_big_nums_1_1_big_number_1acae6ae7757f89b2971c22d5d3c0cca29" kind="function"><name>operator|=</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a76fe5402cd5bcd53c850ce31704b5b57" kind="function"><name>operator ^=</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a82c0b0b700533df0c96523f5d6fbb2bc" kind="function"><name>operator&lt;&lt;=</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a946dfd2531068c7e07946cb4b9af8fa2" kind="function"><name>operator &gt;&gt;=</name></member>
+    <member refid="class_big_nums_1_1_big_number_1aac54f4e6e678b26552cef3dbcd18d41f" kind="function"><name>operator++</name></member>
+    <member refid="class_big_nums_1_1_big_number_1ada3ed05861f520f73182e42c9fb153cb" kind="function"><name>operator--</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a62c972147e0c20614fa6f2b3831b15b8" kind="function"><name>operator++</name></member>
+    <member refid="class_big_nums_1_1_big_number_1ab6475de98159ef5398b22449f5333368" kind="function"><name>operator--</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a47e2ad103bf98d5fecb7a0ff01d36e60" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="class_big_nums_1_1_big_number_1adda5cd1a7aca6683ef84866af7e5bd0b" kind="friend"><name>operator&gt;&gt;</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a0f9a8bcbc50de75e11d114a8c8629896" kind="friend"><name>operator ^</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a177683ba51aeb898d01c71f978e7b437" kind="friend"><name>operator &amp;</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a20db44e73666375cb56579d951ef87c4" kind="friend"><name>operator|</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a2e3512db297a67899d84f57ba0ec31f5" kind="friend"><name>operator ^</name></member>
+    <member refid="class_big_nums_1_1_big_number_1ab6d6f57915676119fc27d509ffbc7aaa" kind="friend"><name>operator&lt;&lt;</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a79a63ab9c19b4fc86b225bbaba7435f3" kind="friend"><name>operator &gt;&gt;</name></member>
+    <member refid="class_big_nums_1_1_big_number_1a09ab9caa6f21204eed61e6e96e9e72cc" kind="friend"><name>operator ~</name></member>
+  </compound>
+  <compound refid="namespace_big_nums" kind="namespace"><name>BigNums</name>
+    <member refid="namespace_big_nums_1aa720921bc4bb5c07e5eaaa94ea2fbdd4" kind="function"><name>Add</name></member>
+    <member refid="namespace_big_nums_1af7374fc61c13d901a5544cf75f9aa607" kind="function"><name>Subtract</name></member>
+    <member refid="namespace_big_nums_1a0fd0171f6ec3841100d2aac76a1ad3b2" kind="function"><name>Multiply</name></member>
+    <member refid="namespace_big_nums_1a5509ae7c6fe5bd643f0b70813af082e4" kind="function"><name>Divide</name></member>
+    <member refid="namespace_big_nums_1a61b932319b89265b00a55e8dcce77b0e" kind="function"><name>GetRemainder</name></member>
+    <member refid="namespace_big_nums_1ab73d728e998902ee2db1af69619b7573" kind="function"><name>Increment</name></member>
+    <member refid="namespace_big_nums_1a5ade9d910a990dfe7a21a3015d2a523a" kind="function"><name>Decrement</name></member>
+    <member refid="namespace_big_nums_1a6ae2ed93d9956ac117c4fc399b72aee7" kind="function"><name>Max</name></member>
+    <member refid="namespace_big_nums_1a75b2a2bd89326e34387f3465ea9735b7" kind="function"><name>Min</name></member>
+    <member refid="namespace_big_nums_1a18e6e5d50d69125d22b2d4510354de2e" kind="function"><name>Abs</name></member>
+    <member refid="namespace_big_nums_1a673780802e05413ca959d9ef903a0b0c" kind="function"><name>MultAdd</name></member>
+    <member refid="namespace_big_nums_1a60e4463715275849b533433223e2ee07" kind="function"><name>Difference</name></member>
+    <member refid="namespace_big_nums_1a3353e9045574582f6c7b5f243f700716" kind="function"><name>IsNumber</name></member>
+    <member refid="namespace_big_nums_1a66d44277d6d6e0ff43c9e00ee79e0c86" kind="function"><name>IsBigNumber</name></member>
+    <member refid="namespace_big_nums_1aea836101e2c13e62da1ac27d7b6c77d8" kind="function"><name>IsNegative</name></member>
+    <member refid="namespace_big_nums_1ad10e532cfb62a71e7c6b68f5941362d5" kind="function"><name>IsPositive</name></member>
+    <member refid="namespace_big_nums_1ad3c1a55de2f548036c5f3888c2b4061d" kind="function"><name>ConvertBinaryValue</name></member>
+    <member refid="namespace_big_nums_1aa974f80c6eaffabdcb244efbfc8ef40f" kind="function"><name>operator&lt;&lt;</name></member>
+    <member refid="namespace_big_nums_1a842a1460ed950581d97b842d8fb42910" kind="function"><name>operator &gt;&gt;</name></member>
+    <member refid="namespace_big_nums_1a43db6cb13170c6129a77c057ef76017e" kind="function"><name>operator+</name></member>
+    <member refid="namespace_big_nums_1a45951a2fb9f239876c94c8917b4d7ad1" kind="function"><name>operator -</name></member>
+    <member refid="namespace_big_nums_1afc1c2c149134a0b2a64347c14d96946d" kind="function"><name>operator -</name></member>
+    <member refid="namespace_big_nums_1a04ca82b2b679febecf3ac11a4fd58db1" kind="function"><name>operator *</name></member>
+    <member refid="namespace_big_nums_1a5f3c743438ecf988d979eceb658f9cf9" kind="function"><name>operator/</name></member>
+    <member refid="namespace_big_nums_1ae7b3fba15d931353b415566997ad2bd2" kind="function"><name>operator %</name></member>
+    <member refid="namespace_big_nums_1a26f4f7080ee4ac682138c92ad0ce7f75" kind="function"><name>operator ^</name></member>
+    <member refid="namespace_big_nums_1a850a2334f2158f7bbe71d1c6e9fad531" kind="function"><name>operator==</name></member>
+    <member refid="namespace_big_nums_1a4b4f66727acdbc37dadbf1da8170b088" kind="function"><name>operator !=</name></member>
+    <member refid="namespace_big_nums_1a8da493ab5dba979579d6ceeec7b1ac14" kind="function"><name>operator &gt;</name></member>
+    <member refid="namespace_big_nums_1a3d130669f3794613ae13100178f0758c" kind="function"><name>operator&lt;</name></member>
+    <member refid="namespace_big_nums_1afde1be123ae1b999f1913f801d6aa286" kind="function"><name>operator &gt;=</name></member>
+    <member refid="namespace_big_nums_1a60e44068f20ee7b59d24f7147282eb2c" kind="function"><name>operator&lt;=</name></member>
+    <member refid="namespace_big_nums_1ab5839eac3b74ef69240811d21f09377c" kind="function"><name>operator &amp;</name></member>
+    <member refid="namespace_big_nums_1a3885538e918c8cb0cd96433da09462f0" kind="function"><name>operator|</name></member>
+    <member refid="namespace_big_nums_1a991aa6b41e534b73bab66446db5909b7" kind="function"><name>operator ^</name></member>
+    <member refid="namespace_big_nums_1a7fae187d94a5f4c3869ca24f68826cef" kind="function"><name>operator&lt;&lt;</name></member>
+    <member refid="namespace_big_nums_1a461540d97b6da48dc4f771ab6c41a5f9" kind="function"><name>operator &gt;&gt;</name></member>
+    <member refid="namespace_big_nums_1a9bdd811316d31ba358ef97ee09cbb011" kind="function"><name>operator ~</name></member>
+  </compound>
+  <compound refid="_big_number_8h" kind="file"><name>BigNumber.h</name>
+  </compound>
+  <compound refid="_big_number_8cpp" kind="file"><name>BigNumber.cpp</name>
+  </compound>
+  <compound refid="dir_7f57b1e41c5acd0e859ae5f3a2b075a9" kind="dir"><name>headers</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+</doxygenindex>

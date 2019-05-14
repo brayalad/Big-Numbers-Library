@@ -1,0 +1,97 @@
+.TH "src/BigNumber.cpp" 3 "Tue May 14 2019" "Big Numbers Library" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+src/BigNumber.cpp
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <algorithm>\fP
+.br
+\fC#include <cmath>\fP
+.br
+\fC#include <climits>\fP
+.br
+\fC#include 'include/BigNumber\&.h'\fP
+.br
+
+.SS "Namespaces"
+
+.in +1c
+.ti -1c
+.RI " \fBBigNums\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "std::ostream & \fBBigNums::operator<<\fP (std::ostream &outputStream, const BigNumber &_bigNum)"
+.br
+.ti -1c
+.RI "std::istream & \fBBigNums::operator >>\fP (std::istream &inputStream, BigNumber &_bigNum)"
+.br
+.ti -1c
+.RI "BigNumber \fBBigNums::operator+\fP (BigNumber _addend1, const BigNumber &_addend2)"
+.br
+.ti -1c
+.RI "BigNumber \fBBigNums::operator \-\fP (BigNumber _minuend, const BigNumber &_subtrahend)"
+.br
+.ti -1c
+.RI "BigNumber \fBBigNums::operator \-\fP (const BigNumber &_bigNum)"
+.br
+.ti -1c
+.RI "BigNumber \fBBigNums::operator *\fP (BigNumber _multiplicand, const BigNumber &_multiplier)"
+.br
+.ti -1c
+.RI "BigNumber \fBBigNums::operator/\fP (BigNumber _dividend, const BigNumber &_divisor)"
+.br
+.ti -1c
+.RI "BigNumber \fBBigNums::operator %\fP (BigNumber _dividend, const BigNumber &_divisor)"
+.br
+.ti -1c
+.RI "BigNumber \fBBigNums::operator ^\fP (BigNumber _base, int _power)"
+.br
+.ti -1c
+.RI "bool \fBBigNums::operator==\fP (const BigNumber &_bigNum1, const BigNumber &_bigNum2)"
+.br
+.ti -1c
+.RI "bool \fBBigNums::operator !=\fP (const BigNumber &_bigNum1, const BigNumber &_bigNum2)"
+.br
+.ti -1c
+.RI "bool \fBBigNums::operator >\fP (const BigNumber &_bigNum1, const BigNumber &_bigNum2)"
+.br
+.ti -1c
+.RI "bool \fBBigNums::operator<\fP (const BigNumber &_bigNum1, const BigNumber &_bigNum2)"
+.br
+.ti -1c
+.RI "bool \fBBigNums::operator >=\fP (const BigNumber &_bigNum1, const BigNumber &_bigNum2)"
+.br
+.ti -1c
+.RI "bool \fBBigNums::operator<=\fP (const BigNumber &_bigNum1, const BigNumber &_bigNum2)"
+.br
+.ti -1c
+.RI "BigNumber \fBBigNums::operator &\fP (const BigNumber &_bigNum1, const BigNumber &_bigNum2)"
+.br
+.ti -1c
+.RI "BigNumber \fBBigNums::operator|\fP (const BigNumber &_bigNum1, const BigNumber &_bigNum2)"
+.br
+.ti -1c
+.RI "BigNumber \fBBigNums::operator ^\fP (const BigNumber &_bigNum1, const BigNumber &_bigNum2)"
+.br
+.ti -1c
+.RI "BigNumber \fBBigNums::operator<<\fP (const BigNumber &_bigNum, int numOfPlaces)"
+.br
+.ti -1c
+.RI "BigNumber \fBBigNums::operator >>\fP (const BigNumber &_bigNum, int numOfPlaces)"
+.br
+.ti -1c
+.RI "BigNumber \fBBigNums::operator ~\fP (const BigNumber &_bigNum)"
+.br
+.ti -1c
+.RI "BigNumber \fBBigNums::ConvertBinaryValue\fP (const BigNumber &_binaryNum)"
+.br
+.in -1c
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Big Numbers Library from the source code\&.

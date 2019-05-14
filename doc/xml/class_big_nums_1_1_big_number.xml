@@ -1,0 +1,2536 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="class_big_nums_1_1_big_number" kind="class" language="C++" prot="public">
+    <compoundname>BigNums::BigNumber</compoundname>
+    <includes refid="_big_number_8h" local="no">BigNumber.h</includes>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a1567531627c79b2018363684cec9ed34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BigNums::BigNumber::BigNumber</definition>
+        <argsstring>()</argsstring>
+        <name>BigNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Vector holding digits of the current instance <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> constructor<linebreak/>
+Support for all data types <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>number</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The initial value of the <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="34" column="1" bodyfile="src/BigNumber.cpp" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a10752ca000f0362291294fc9d96a17fb" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BigNums::BigNumber::BigNumber</definition>
+        <argsstring>(char number)</argsstring>
+        <name>BigNumber</name>
+        <param>
+          <type>char</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="36" column="1" bodyfile="src/BigNumber.cpp" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a20b7a7fe3497b4ff501360eb6a3f2975" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BigNums::BigNumber::BigNumber</definition>
+        <argsstring>(unsigned char number)</argsstring>
+        <name>BigNumber</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="38" column="1" bodyfile="src/BigNumber.cpp" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a05b1e09de1d6504fb0d17abe59e1567e" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BigNums::BigNumber::BigNumber</definition>
+        <argsstring>(const char *number)</argsstring>
+        <name>BigNumber</name>
+        <param>
+          <type>const char *</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="40" column="1" bodyfile="src/BigNumber.cpp" bodystart="24" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a403ae18d7626dc619160b46b7d94e3d4" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BigNums::BigNumber::BigNumber</definition>
+        <argsstring>(std::string number)</argsstring>
+        <name>BigNumber</name>
+        <param>
+          <type>std::string</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="42" column="1" bodyfile="src/BigNumber.cpp" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a10c73e0ca7d565c7f50907d88e653fcc" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BigNums::BigNumber::BigNumber</definition>
+        <argsstring>(short number)</argsstring>
+        <name>BigNumber</name>
+        <param>
+          <type>short</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="44" column="1" bodyfile="src/BigNumber.cpp" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a7ffb48df9f893148c553a4ffba013bd5" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BigNums::BigNumber::BigNumber</definition>
+        <argsstring>(unsigned short number)</argsstring>
+        <name>BigNumber</name>
+        <param>
+          <type>unsigned short</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="46" column="1" bodyfile="src/BigNumber.cpp" bodystart="41" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a1a48f0ab5c66b95b98fba8e40371be90" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BigNums::BigNumber::BigNumber</definition>
+        <argsstring>(int number)</argsstring>
+        <name>BigNumber</name>
+        <param>
+          <type>int</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="48" column="1" bodyfile="src/BigNumber.cpp" bodystart="47" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1ac9b6672f2bb3ef8da30635a83cc7d742" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BigNums::BigNumber::BigNumber</definition>
+        <argsstring>(unsigned int number)</argsstring>
+        <name>BigNumber</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="50" column="1" bodyfile="src/BigNumber.cpp" bodystart="53" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a1e9851c75b436dfd943456c9f6fe7d5f" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BigNums::BigNumber::BigNumber</definition>
+        <argsstring>(long long number)</argsstring>
+        <name>BigNumber</name>
+        <param>
+          <type>long long</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="52" column="1" bodyfile="src/BigNumber.cpp" bodystart="59" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1aff681535ca202ff247413e35e09388ad" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BigNums::BigNumber::BigNumber</definition>
+        <argsstring>(unsigned long long number)</argsstring>
+        <name>BigNumber</name>
+        <param>
+          <type>unsigned long long</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="54" column="1" bodyfile="src/BigNumber.cpp" bodystart="65" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1afa8357b2be149b6f21f404e8cb95ebf2" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BigNums::BigNumber::BigNumber</definition>
+        <argsstring>(float number)</argsstring>
+        <name>BigNumber</name>
+        <param>
+          <type>float</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="56" column="1" bodyfile="src/BigNumber.cpp" bodystart="71" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a2abf856e5d6fe96a174d6de3091580c5" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BigNums::BigNumber::BigNumber</definition>
+        <argsstring>(double number)</argsstring>
+        <name>BigNumber</name>
+        <param>
+          <type>double</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="58" column="1" bodyfile="src/BigNumber.cpp" bodystart="77" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1aeb155e4d45721f93a813dc2dacacc914" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BigNums::BigNumber::BigNumber</definition>
+        <argsstring>(long double number)</argsstring>
+        <name>BigNumber</name>
+        <param>
+          <type>long double</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="60" column="1" bodyfile="src/BigNumber.cpp" bodystart="83" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a02539ef464467b437b133dff855e67f0" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BigNums::BigNumber::BigNumber</definition>
+        <argsstring>(const std::vector&lt; char &gt; &amp;number)</argsstring>
+        <name>BigNumber</name>
+        <param>
+          <type>const std::vector&lt; char &gt; &amp;</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="62" column="1" bodyfile="src/BigNumber.cpp" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a3a065889297357cb69da1f503f017a27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BigNums::BigNumber::BigNumber</definition>
+        <argsstring>(const BigNumber &amp;number)</argsstring>
+        <name>BigNumber</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="64" column="1" bodyfile="src/BigNumber.cpp" bodystart="94" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a09e060fefa8279c48d5a5f12fde8c802" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BigNums::BigNumber::~BigNumber</definition>
+        <argsstring>()=default</argsstring>
+        <name>~BigNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="66" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a3d910bc1823b1290f26b1764a93e77ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber operator+</definition>
+        <argsstring>(BigNumber _addend1, const BigNumber &amp;_addend2)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+          <declname>_addend1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_addend2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Addition operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_addend1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_addend2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number being added </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The sum of the two BigNumbers </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="227" column="1" bodyfile="src/BigNumber.cpp" bodystart="734" bodyend="737"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1ab90a430bf6202a4f133fc915101cd929" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber operator+</definition>
+        <argsstring>(const T &amp;_addend1, const U &amp;_addend2)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_addend1</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_addend2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="230" column="1" bodyfile="headers/BigNumber.h" bodystart="230" bodyend="234"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a9a4cb9889d9180fb6bc9bfdb1de1e8b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber operator -</definition>
+        <argsstring>(BigNumber _minuend, const BigNumber &amp;_subtrahend)</argsstring>
+        <name>operator -</name>
+        <param>
+          <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+          <declname>_minuend</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_subtrahend</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Subtraction operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_minuend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_subtrahend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number being subtracted </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The difference of the two BigNumbers </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="245" column="1" bodyfile="src/BigNumber.cpp" bodystart="739" bodyend="742"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1abafc9bc65d3cf2b1a87fe226d37b107c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber operator -</definition>
+        <argsstring>(const T &amp;_minuend, const U &amp;_subtrahend)</argsstring>
+        <name>operator -</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_minuend</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_subtrahend</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="248" column="1" bodyfile="headers/BigNumber.h" bodystart="248" bodyend="251"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1aa1017a29d47606c15545ea481c1f5dbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber operator -</definition>
+        <argsstring>(const BigNumber &amp;_bigNum)</argsstring>
+        <name>operator -</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Negation operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The negated value of the number </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="261" column="1" bodyfile="src/BigNumber.cpp" bodystart="744" bodyend="747"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a390a7b0928f684129947af34272b1def" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber operator *</definition>
+        <argsstring>(BigNumber _multiplicand, const BigNumber &amp;_multiplier)</argsstring>
+        <name>operator *</name>
+        <param>
+          <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+          <declname>_multiplicand</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_multiplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Multiplication operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_multiplicand</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_multiplier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number being multiplied by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The product of the two BigNumbers </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="272" column="1" bodyfile="src/BigNumber.cpp" bodystart="749" bodyend="752"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1ad33abbbc2055753a8b76762a6d5ef947" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber operator *</definition>
+        <argsstring>(const T &amp;_multiplicand, const U &amp;_multiplier)</argsstring>
+        <name>operator *</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_multiplicand</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_multiplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="275" column="1" bodyfile="headers/BigNumber.h" bodystart="275" bodyend="278"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a1f3bac79755532f059e42f08126001fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber operator/</definition>
+        <argsstring>(BigNumber _dividend, const BigNumber &amp;_divisor)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+          <declname>_dividend</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_divisor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Division operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_dividend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_divisor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number being divided by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The quotient of the two BigNumbers </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="288" column="1" bodyfile="src/BigNumber.cpp" bodystart="754" bodyend="757"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a90fc1955ccdc202a1d41857dbe8a81a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber operator/</definition>
+        <argsstring>(const T &amp;_dividend, const U &amp;_divisor)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_dividend</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_divisor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="291" column="1" bodyfile="headers/BigNumber.h" bodystart="291" bodyend="294"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a22a2ab555ef01a5b6cdc31751156e4dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber operator %</definition>
+        <argsstring>(BigNumber _dividend, const BigNumber &amp;_divisor)</argsstring>
+        <name>operator %</name>
+        <param>
+          <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+          <declname>_dividend</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_divisor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mod operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_dividend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_divisor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number being divided by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The remainder of the two BigNumbers </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="306" column="1" bodyfile="src/BigNumber.cpp" bodystart="759" bodyend="762"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a17162af4b3ce281f1ac33820450986cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber operator %</definition>
+        <argsstring>(const T &amp;_dividend, const U &amp;_divisor)</argsstring>
+        <name>operator %</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_dividend</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_divisor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="309" column="1" bodyfile="headers/BigNumber.h" bodystart="309" bodyend="312"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a895aa35eca34f84db8c543f23274040a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const BigNumber &amp;_bigNum1, const BigNumber &amp;_bigNum2)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Equals operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Another number value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if equal, False if not </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="330" column="1" bodyfile="src/BigNumber.cpp" bodystart="769" bodyend="772"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1add1b48504a6361ebffcef3c2b9fb5958" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>friend bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const T &amp;_bigNum1, const U &amp;_bigNum2)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="333" column="1" bodyfile="headers/BigNumber.h" bodystart="333" bodyend="336"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a7311ab2265ec5536725ffdc2dcfb7dcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>friend bool</type>
+        <definition>bool operator !=</definition>
+        <argsstring>(const BigNumber &amp;_bigNum1, const BigNumber &amp;_bigNum2)</argsstring>
+        <name>operator !=</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Not equals operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Another number value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if not equal, False if equal </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="348" column="1" bodyfile="src/BigNumber.cpp" bodystart="774" bodyend="777"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a06943b4fe9e60b40857108c3d1a40c4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>friend bool</type>
+        <definition>bool operator !=</definition>
+        <argsstring>(const T &amp;_bigNum1, const U &amp;_bigNum2)</argsstring>
+        <name>operator !=</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="351" column="1" bodyfile="headers/BigNumber.h" bodystart="351" bodyend="354"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a73fd242189f8c8439d4f001681d1ae51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend bool</type>
+        <definition>bool operator&gt;</definition>
+        <argsstring>(const BigNumber &amp;_bigNum1, const BigNumber &amp;_bigNum2)</argsstring>
+        <name>operator&gt;</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Greater than operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Another <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if current instance is greater, False if not </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="364" column="1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a2333d6e7a2438bcea0672fb4dbfc7b91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>friend bool</type>
+        <definition>bool operator &gt;</definition>
+        <argsstring>(const T &amp;_bigNum1, const U &amp;_bigNum2)</argsstring>
+        <name>operator &gt;</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="367" column="1" bodyfile="headers/BigNumber.h" bodystart="367" bodyend="370"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a5908b93d7477c482d145b878fa003101" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(const BigNumber &amp;_bigNum1, const BigNumber &amp;_bigNum2)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Less than operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Another <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if current instance is less, False if not </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="380" column="1" bodyfile="src/BigNumber.cpp" bodystart="826" bodyend="829"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a8d081ba4f8cf93e90d74dbe013695b1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>friend bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(const T &amp;_bigNum1, const U &amp;_bigNum2)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="383" column="1" bodyfile="headers/BigNumber.h" bodystart="383" bodyend="386"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1aa64caabb2b7a6a9bc6fc28e1abf961e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend bool</type>
+        <definition>bool operator&gt;=</definition>
+        <argsstring>(const BigNumber &amp;_bigNum1, const BigNumber &amp;_bigNum2)</argsstring>
+        <name>operator&gt;=</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Greater than or equal to operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Another <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if current instance is greater or equal, False if not </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="396" column="1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a7d9aa0ee821fabd568fad397d4274bc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>friend bool</type>
+        <definition>bool operator &gt;=</definition>
+        <argsstring>(const T &amp;_bigNum1, const U &amp;_bigNum2)</argsstring>
+        <name>operator &gt;=</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="399" column="1" bodyfile="headers/BigNumber.h" bodystart="399" bodyend="402"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a787ad7c1ee1b244a545034fbe1e09431" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend bool</type>
+        <definition>bool operator&lt;=</definition>
+        <argsstring>(const BigNumber &amp;_bigNum1, const BigNumber &amp;_bigNum2)</argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Less than or equal to operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Another <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if current instance is less or equal, False if not </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="412" column="1" bodyfile="src/BigNumber.cpp" bodystart="836" bodyend="839"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a05bfb6df81cae921364aec33df340215" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type>friend bool</type>
+        <definition>bool operator&lt;=</definition>
+        <argsstring>(T _bigNum1, const U &amp;_bigNum2)</argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type>T</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="415" column="1" bodyfile="headers/BigNumber.h" bodystart="415" bodyend="418"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="user-defined">
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1ab3ebd73a1b9d6719be452f05f9e2ebce" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>char</type>
+        <definition>char BigNums::BigNumber::operator[]</definition>
+        <argsstring>(int index) const</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The index operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The position in the <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> digit vector </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The value at the indexed position </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="641" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1aa341f4a148c2d83057ccd78f7a048c41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char &amp;</type>
+        <definition>char&amp; BigNums::BigNumber::operator[]</definition>
+        <argsstring>(int index)</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="642" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_big_nums_1_1_big_number_1ab5806802010b10f842c14a2416c8161d" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; char &gt;</type>
+        <definition>std::vector&lt;char&gt; BigNums::BigNumber::numberValue</definition>
+        <argsstring></argsstring>
+        <name>numberValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="25" column="1" bodyfile="headers/BigNumber.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1aead85993ce069442f7b15cca8c81df39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::BigNumber::Add</definition>
+        <argsstring>(const BigNumber &amp;_addend)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_addend</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add another <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> to the current instance <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_addend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> being added by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The sum of the two BigNumbers </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="75" column="1" bodyfile="src/BigNumber.cpp" bodystart="99" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a505eed1769193372c05a1c41ae0e707b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::BigNumber::Subtract</definition>
+        <argsstring>(const BigNumber &amp;_subtrahend)</argsstring>
+        <name>Subtract</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_subtrahend</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Subtract another <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> from the current instance <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_subtrahend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- The <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> subtracted by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The difference of the two BigNumbers </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="82" column="1" bodyfile="src/BigNumber.cpp" bodystart="170" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a7d54b0defb30727ab99a110b1b6c07ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::BigNumber::Multiply</definition>
+        <argsstring>(const BigNumber &amp;_multiplier)</argsstring>
+        <name>Multiply</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_multiplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Multiply the current instance by another <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_multiplier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> being multiplied by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The product of the two BigNumbers </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="89" column="1" bodyfile="src/BigNumber.cpp" bodystart="368" bodyend="464"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a55f83d787d248c55d9df8347c2fcb7ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::BigNumber::Divide</definition>
+        <argsstring>(const BigNumber &amp;_divisor)</argsstring>
+        <name>Divide</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_divisor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Divide the current instance by another <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_divisor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> being divided by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The quotient of the two BigNumbers </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="96" column="1" bodyfile="src/BigNumber.cpp" bodystart="466" bodyend="509"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a1d7839794fa1b9dd285e017443d1859a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::BigNumber::Mod</definition>
+        <argsstring>(const BigNumber &amp;_divisor)</argsstring>
+        <name>Mod</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_divisor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mod the current instance by another <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_divisor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Big Number being divided by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The remainder of the two BigNumbers </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="103" column="1" bodyfile="src/BigNumber.cpp" bodystart="511" bodyend="553"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a3b66caf45f60c11461d9f747c2245aa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::BigNumber::Pow</definition>
+        <argsstring>(int _exponent)</argsstring>
+        <name>Pow</name>
+        <param>
+          <type>int</type>
+          <declname>_exponent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Raise the current instance to the power of an exponent <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>exponent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The power to be raised by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>- The <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> calculated </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="110" column="1" bodyfile="src/BigNumber.cpp" bodystart="555" bodyend="581"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a1f81565a354b88000e6fa6657bd138c6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string</type>
+        <definition>const std::string BigNums::BigNumber::GetString</definition>
+        <argsstring>() const</argsstring>
+        <name>GetString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the string value of the current instance <simplesect kind="return"><para>The <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> value as a string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="116" column="1" bodyfile="src/BigNumber.cpp" bodystart="583" bodyend="594"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a4fb18fef2725c13a977ef6545563e361" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>long long int</type>
+        <definition>long long int BigNums::BigNumber::GetInteger</definition>
+        <argsstring>() const</argsstring>
+        <name>GetInteger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the integer value of the current instance <simplesect kind="return"><para>The <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> value as a long long int </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="122" column="1" bodyfile="src/BigNumber.cpp" bodystart="596" bodyend="605"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1af8f5505982e08fb73817cba94e70ff1c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; char &gt;</type>
+        <definition>std::vector&lt; char &gt; BigNums::BigNumber::GetNumberValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetNumberValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the value of current instance as a vector of chars <simplesect kind="return"><para>The <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> value as a vector </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="128" column="1" bodyfile="src/BigNumber.cpp" bodystart="607" bodyend="610"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a02c53d5b7c27e3b80c5f8ee5982a8875" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::BigNumber::GetBinaryValue</definition>
+        <argsstring>() const</argsstring>
+        <name>GetBinaryValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the value of the current instance as bits <simplesect kind="return"><para>The <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> value represented as bits </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="134" column="1" bodyfile="src/BigNumber.cpp" bodystart="612" bodyend="631"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a7e47aaceaeacdfa5685158daa230dbfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::BigNumber::SetNumber</definition>
+        <argsstring>(const T &amp;_newNum)</argsstring>
+        <name>SetNumber</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_newNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the value of the current instance with a new value <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_newNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new value for the <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> with the new value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="143" column="1" bodyfile="headers/BigNumber.h" bodystart="143" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a9f52fbb5f431c7d6a82e40f34e5b1f6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::BigNumber::Negate</definition>
+        <argsstring>()</argsstring>
+        <name>Negate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Negates the value of the current instance <simplesect kind="return"><para>The <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> after negation </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="153" column="1" bodyfile="src/BigNumber.cpp" bodystart="633" bodyend="645"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a440be0c0feaf4be408ed8f7fa6b42926" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::BigNumber::RemoveLeadingZeros</definition>
+        <argsstring>()</argsstring>
+        <name>RemoveLeadingZeros</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Removes the zeros in front of the <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> <simplesect kind="return"><para>The <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> without leading zeros </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="159" column="1" bodyfile="src/BigNumber.cpp" bodystart="647" bodyend="665"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1af459e1abf1ec5721b7288979e71cd672" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BigNums::BigNumber::Equals</definition>
+        <argsstring>(const BigNumber &amp;_comparedNum) const</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_comparedNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check if another <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> is equal to the current instance <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_comparedNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> being compared </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if equal, false if not </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="166" column="1" bodyfile="src/BigNumber.cpp" bodystart="667" bodyend="670"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1ae35841de4a2037e6edc02bcbf40600ba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned long long int</type>
+        <definition>unsigned long long int BigNums::BigNumber::Digits</definition>
+        <argsstring>() const</argsstring>
+        <name>Digits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the number of digits in the current instance <simplesect kind="return"><para>The number of digits </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="172" column="1" bodyfile="src/BigNumber.cpp" bodystart="672" bodyend="680"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1af5203c02639f6dc409016bfb4710dafc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BigNums::BigNumber::IsNegative</definition>
+        <argsstring>() const</argsstring>
+        <name>IsNegative</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get if the current instance is negative <simplesect kind="return"><para>True if negative, False if positive </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="178" column="1" bodyfile="src/BigNumber.cpp" bodystart="682" bodyend="685"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a8d1479eed46930fdcd374c85881c2864" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BigNums::BigNumber::IsPositive</definition>
+        <argsstring>() const</argsstring>
+        <name>IsPositive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get if the current instance is positive <simplesect kind="return"><para>True if positive, False if negative </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="184" column="1" bodyfile="src/BigNumber.cpp" bodystart="687" bodyend="690"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1abf9a23b42aa137baa8a040a6cf524cca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BigNums::BigNumber::IsEven</definition>
+        <argsstring>() const</argsstring>
+        <name>IsEven</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get if the current instance is even <simplesect kind="return"><para>True if even, False if odd </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="190" column="1" bodyfile="src/BigNumber.cpp" bodystart="692" bodyend="695"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1afa4fe9880b4c307cd12ebbdbe94c28d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BigNums::BigNumber::IsOdd</definition>
+        <argsstring>() const</argsstring>
+        <name>IsOdd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get if the current instance is odd <simplesect kind="return"><para>True if odd, False if even </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="196" column="1" bodyfile="src/BigNumber.cpp" bodystart="697" bodyend="700"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1ae4675cb61567802acb26e194d63ac454" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::BigNumber::Abs</definition>
+        <argsstring>() const</argsstring>
+        <name>Abs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the absolute value of the current instance <simplesect kind="return"><para>The <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> absolute value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="202" column="1" bodyfile="src/BigNumber.cpp" bodystart="702" bodyend="713"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1abd9a823365d0e1f44b27adb87ce629cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+        <definition>BigNumber&amp; BigNums::BigNumber::operator=</definition>
+        <argsstring>(const T &amp;_difBigNum)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_difBigNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assignment operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_difBigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The new value for the <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> containing the new value </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="474" column="1" bodyfile="headers/BigNumber.h" bodystart="474" bodyend="479"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a99a14e0f44f08f04dd686a8fb1251338" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+        <definition>BigNumber&amp; BigNums::BigNumber::operator+=</definition>
+        <argsstring>(const T &amp;_difBigNum)</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_difBigNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Addition assignment operator<linebreak/>
+Assigns the sum of the current instance and _difBigNum to current instance <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_difBigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value being added </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new value after addition and assignment </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="488" column="1" bodyfile="headers/BigNumber.h" bodystart="488" bodyend="492"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a2ac4094870ea13bc9b81c712dabe173e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+        <definition>BigNumber&amp; BigNums::BigNumber::operator -=</definition>
+        <argsstring>(const T &amp;_difBigNum)</argsstring>
+        <name>operator -=</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_difBigNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Subtraction assignment operator<linebreak/>
+Assigns the difference of the current instance and _difBigNum to current instance <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_difBigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value being subtracted </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new value after subtraction and assignment </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="501" column="1" bodyfile="headers/BigNumber.h" bodystart="501" bodyend="505"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a1fc741b943e941757495f5fc9663dd45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+        <definition>BigNumber&amp; BigNums::BigNumber::operator *=</definition>
+        <argsstring>(const T &amp;_difBigNum)</argsstring>
+        <name>operator *=</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_difBigNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Multiplication assignment operator<linebreak/>
+Assigns the product of the current instance and _difBigNum to current instance <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_difBigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value being multiplied </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new value after multiplication and assignment </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="514" column="1" bodyfile="headers/BigNumber.h" bodystart="514" bodyend="518"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1adff2df5d7288c36d4ab7dfd0b6f5ede4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+        <definition>BigNumber&amp; BigNums::BigNumber::operator/=</definition>
+        <argsstring>(const T &amp;_difBigNum)</argsstring>
+        <name>operator/=</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_difBigNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Division assignment operator<linebreak/>
+Assigns the quotient of the current instance and _difBigNum to current instance <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_difBigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value being divided </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new value after division and assignment </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="527" column="1" bodyfile="headers/BigNumber.h" bodystart="527" bodyend="531"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a697d3b997151dcb9e0fe10e5ac44676a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+        <definition>BigNumber&amp; BigNums::BigNumber::operator %=</definition>
+        <argsstring>(const T &amp;_difBigNum)</argsstring>
+        <name>operator %=</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_difBigNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mod assignment operator<linebreak/>
+Assigns the remainder of the current instance and _difBigNum to current instance <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_difBigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value being divided </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new value after division and assignment </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="540" column="1" bodyfile="headers/BigNumber.h" bodystart="540" bodyend="544"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1af98f69c51b85dc6d7af162346d8c40f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+        <definition>BigNumber&amp; BigNums::BigNumber::operator &amp;=</definition>
+        <argsstring>(const T &amp;_difBigNum)</argsstring>
+        <name>operator &amp;=</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_difBigNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>AND assignment operator<linebreak/>
+Assigns the AND value of the current instance and _difBigNum to current instance <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_difBigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value being ANDed </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new value after AND and assignment </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="553" column="1" bodyfile="headers/BigNumber.h" bodystart="553" bodyend="557"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1acae6ae7757f89b2971c22d5d3c0cca29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+        <definition>BigNumber&amp; BigNums::BigNumber::operator|=</definition>
+        <argsstring>(const T &amp;_difBigNum)</argsstring>
+        <name>operator|=</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_difBigNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>OR assignment operator<linebreak/>
+ Assigns the OR value of the current instance and _difBigNum to current instance <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_difBigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value being ORed </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new value after OR and assignment </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="566" column="1" bodyfile="headers/BigNumber.h" bodystart="566" bodyend="570"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a76fe5402cd5bcd53c850ce31704b5b57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+        <definition>BigNumber&amp; BigNums::BigNumber::operator ^=</definition>
+        <argsstring>(const T &amp;_difBigNum)</argsstring>
+        <name>operator ^=</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_difBigNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>XOR assignment operator<linebreak/>
+ Assigns the XOR value of the current instance and _difBigNum to current instance <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_difBigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value being XORed </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new value after XOR and assignment </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="579" column="1" bodyfile="headers/BigNumber.h" bodystart="579" bodyend="583"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a82c0b0b700533df0c96523f5d6fbb2bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+        <definition>BigNumber&amp; BigNums::BigNumber::operator&lt;&lt;=</definition>
+        <argsstring>(const T &amp;_places)</argsstring>
+        <name>operator&lt;&lt;=</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_places</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Left shift assignment operator<linebreak/>
+Assigns the left shift value of the current instance and _difBigNum to current instance <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_places</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value being left shifted </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new value after left shift and assignment </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="592" column="1" bodyfile="headers/BigNumber.h" bodystart="592" bodyend="596"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a946dfd2531068c7e07946cb4b9af8fa2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+        <definition>BigNumber&amp; BigNums::BigNumber::operator &gt;&gt;=</definition>
+        <argsstring>(const T &amp;_places)</argsstring>
+        <name>operator &gt;&gt;=</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_places</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Right shift assignment operator<linebreak/>
+Assigns the right shift value of the current instance and _difBigNum to current instance <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_places</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value right shift </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new value after right shift and assignment </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="605" column="1" bodyfile="headers/BigNumber.h" bodystart="605" bodyend="609"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1aac54f4e6e678b26552cef3dbcd18d41f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+        <definition>BigNumber &amp; BigNums::BigNumber::operator++</definition>
+        <argsstring>()</argsstring>
+        <name>operator++</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pre-increment operator <simplesect kind="return"><para>The incremented <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="615" column="1" bodyfile="src/BigNumber.cpp" bodystart="1003" bodyend="1007"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1ada3ed05861f520f73182e42c9fb153cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+        <definition>BigNumber &amp; BigNums::BigNumber::operator--</definition>
+        <argsstring>()</argsstring>
+        <name>operator--</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pre-decrement operator <simplesect kind="return"><para>The decremented <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="621" column="1" bodyfile="src/BigNumber.cpp" bodystart="1009" bodyend="1013"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1a62c972147e0c20614fa6f2b3831b15b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>const BigNumber BigNums::BigNumber::operator++</definition>
+        <argsstring>(int)</argsstring>
+        <name>operator++</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Post-increment operator <simplesect kind="return"><para>The pre-incremented <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="627" column="1" bodyfile="src/BigNumber.cpp" bodystart="1015" bodyend="1020"/>
+      </memberdef>
+      <memberdef kind="function" id="class_big_nums_1_1_big_number_1ab6475de98159ef5398b22449f5333368" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>const BigNumber BigNums::BigNumber::operator--</definition>
+        <argsstring>(int)</argsstring>
+        <name>operator--</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Post-decrement operator <simplesect kind="return"><para>The pre-decremented <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="633" column="1" bodyfile="src/BigNumber.cpp" bodystart="1022" bodyend="1027"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a47e2ad103bf98d5fecb7a0ff01d36e60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::ostream &amp;</type>
+        <definition>std::ostream&amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;outputStream, const BigNumber &amp;_bigNum)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>outputStream</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Output stream operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>outputStream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The output stream with the current instance </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="210" column="1" bodyfile="src/BigNumber.cpp" bodystart="715" bodyend="723"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1adda5cd1a7aca6683ef84866af7e5bd0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend std::istream &amp;</type>
+        <definition>std::istream&amp; operator&gt;&gt;</definition>
+        <argsstring>(std::istream &amp;inputStream, BigNumber &amp;_bigNum)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>inputStream</declname>
+        </param>
+        <param>
+          <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Input stream operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>inputStream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The input stream </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The input stream with the current instance </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="218" column="1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a0f9a8bcbc50de75e11d114a8c8629896" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber operator ^</definition>
+        <argsstring>(BigNumber _base, int _power)</argsstring>
+        <name>operator ^</name>
+        <param>
+          <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+          <declname>_base</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_power</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Exponent operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_base</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_power</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The exponent </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The value calculated raising by exponent </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="321" column="1" bodyfile="src/BigNumber.cpp" bodystart="764" bodyend="767"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a177683ba51aeb898d01c71f978e7b437" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber operator &amp;</definition>
+        <argsstring>(const BigNumber &amp;_bigNum1, const BigNumber &amp;_bigNum2)</argsstring>
+        <name>operator &amp;</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bitwise AND operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Another <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> value of AND operation </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="427" column="1" bodyfile="src/BigNumber.cpp" bodystart="841" bodyend="869"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a20db44e73666375cb56579d951ef87c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber operator|</definition>
+        <argsstring>(const BigNumber &amp;_bigNum1, const BigNumber &amp;_bigNum2)</argsstring>
+        <name>operator|</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bitwise OR operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Another <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> value of OR operation </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="435" column="1" bodyfile="src/BigNumber.cpp" bodystart="871" bodyend="899"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a2e3512db297a67899d84f57ba0ec31f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber operator ^</definition>
+        <argsstring>(const BigNumber &amp;_bigNum1, const BigNumber &amp;_bigNum2)</argsstring>
+        <name>operator ^</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bitwise XOR operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Another <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> value of XOR operation </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="443" column="1" bodyfile="src/BigNumber.cpp" bodystart="901" bodyend="929"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1ab6d6f57915676119fc27d509ffbc7aaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber operator&lt;&lt;</definition>
+        <argsstring>(const BigNumber &amp;_bigNum, int numOfPlaces)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numOfPlaces</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bitwise left shift <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>numOfPlaces</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>amount of places to shift </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> value of shifting bits to the left </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="451" column="1" bodyfile="src/BigNumber.cpp" bodystart="931" bodyend="940"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a79a63ab9c19b4fc86b225bbaba7435f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber operator &gt;&gt;</definition>
+        <argsstring>(const BigNumber &amp;_bigNum, int numOfPlaces)</argsstring>
+        <name>operator &gt;&gt;</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numOfPlaces</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bitwise right shift <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>numOfPlaces</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>amount of places to shift </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> value of shifting bits to the right </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="459" column="1" bodyfile="src/BigNumber.cpp" bodystart="942" bodyend="951"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_big_nums_1_1_big_number_1a09ab9caa6f21204eed61e6e96e9e72cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber operator ~</definition>
+        <argsstring>(const BigNumber &amp;_bigNum)</argsstring>
+        <name>operator ~</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bitwise NOT operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> value of inverted bits </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="466" column="1" bodyfile="src/BigNumber.cpp" bodystart="953" bodyend="971"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> class<linebreak/>
+Digits of the number are stored in a vector of characters<linebreak/>
+representing the different digits of the numbers </para>
+    </detaileddescription>
+    <location file="headers/BigNumber.h" line="22" column="1" bodyfile="headers/BigNumber.h" bodystart="21" bodyend="647"/>
+    <listofallmembers>
+      <member refid="class_big_nums_1_1_big_number_1ae4675cb61567802acb26e194d63ac454" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>Abs</name></member>
+      <member refid="class_big_nums_1_1_big_number_1aead85993ce069442f7b15cca8c81df39" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>Add</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a1567531627c79b2018363684cec9ed34" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>BigNumber</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a10752ca000f0362291294fc9d96a17fb" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>BigNumber</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a20b7a7fe3497b4ff501360eb6a3f2975" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>BigNumber</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a05b1e09de1d6504fb0d17abe59e1567e" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>BigNumber</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a403ae18d7626dc619160b46b7d94e3d4" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>BigNumber</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a10c73e0ca7d565c7f50907d88e653fcc" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>BigNumber</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a7ffb48df9f893148c553a4ffba013bd5" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>BigNumber</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a1a48f0ab5c66b95b98fba8e40371be90" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>BigNumber</name></member>
+      <member refid="class_big_nums_1_1_big_number_1ac9b6672f2bb3ef8da30635a83cc7d742" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>BigNumber</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a1e9851c75b436dfd943456c9f6fe7d5f" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>BigNumber</name></member>
+      <member refid="class_big_nums_1_1_big_number_1aff681535ca202ff247413e35e09388ad" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>BigNumber</name></member>
+      <member refid="class_big_nums_1_1_big_number_1afa8357b2be149b6f21f404e8cb95ebf2" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>BigNumber</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a2abf856e5d6fe96a174d6de3091580c5" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>BigNumber</name></member>
+      <member refid="class_big_nums_1_1_big_number_1aeb155e4d45721f93a813dc2dacacc914" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>BigNumber</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a02539ef464467b437b133dff855e67f0" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>BigNumber</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a3a065889297357cb69da1f503f017a27" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>BigNumber</name></member>
+      <member refid="class_big_nums_1_1_big_number_1ae35841de4a2037e6edc02bcbf40600ba" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>Digits</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a55f83d787d248c55d9df8347c2fcb7ed" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>Divide</name></member>
+      <member refid="class_big_nums_1_1_big_number_1af459e1abf1ec5721b7288979e71cd672" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>Equals</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a02c53d5b7c27e3b80c5f8ee5982a8875" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>GetBinaryValue</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a4fb18fef2725c13a977ef6545563e361" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>GetInteger</name></member>
+      <member refid="class_big_nums_1_1_big_number_1af8f5505982e08fb73817cba94e70ff1c" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>GetNumberValue</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a1f81565a354b88000e6fa6657bd138c6" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>GetString</name></member>
+      <member refid="class_big_nums_1_1_big_number_1abf9a23b42aa137baa8a040a6cf524cca" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>IsEven</name></member>
+      <member refid="class_big_nums_1_1_big_number_1af5203c02639f6dc409016bfb4710dafc" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>IsNegative</name></member>
+      <member refid="class_big_nums_1_1_big_number_1afa4fe9880b4c307cd12ebbdbe94c28d2" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>IsOdd</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a8d1479eed46930fdcd374c85881c2864" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>IsPositive</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a1d7839794fa1b9dd285e017443d1859a" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>Mod</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a7d54b0defb30727ab99a110b1b6c07ff" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>Multiply</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a9f52fbb5f431c7d6a82e40f34e5b1f6e" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>Negate</name></member>
+      <member refid="class_big_nums_1_1_big_number_1ab5806802010b10f842c14a2416c8161d" prot="private" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>numberValue</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a7311ab2265ec5536725ffdc2dcfb7dcb" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator !=</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a06943b4fe9e60b40857108c3d1a40c4b" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator !=</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a22a2ab555ef01a5b6cdc31751156e4dd" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator %</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a17162af4b3ce281f1ac33820450986cd" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator %</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a697d3b997151dcb9e0fe10e5ac44676a" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator %=</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a177683ba51aeb898d01c71f978e7b437" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator &amp;</name></member>
+      <member refid="class_big_nums_1_1_big_number_1af98f69c51b85dc6d7af162346d8c40f4" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator &amp;=</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a390a7b0928f684129947af34272b1def" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator *</name></member>
+      <member refid="class_big_nums_1_1_big_number_1ad33abbbc2055753a8b76762a6d5ef947" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator *</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a1fc741b943e941757495f5fc9663dd45" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator *=</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a9a4cb9889d9180fb6bc9bfdb1de1e8b9" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator -</name></member>
+      <member refid="class_big_nums_1_1_big_number_1abafc9bc65d3cf2b1a87fe226d37b107c" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator -</name></member>
+      <member refid="class_big_nums_1_1_big_number_1aa1017a29d47606c15545ea481c1f5dbf" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator -</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a2ac4094870ea13bc9b81c712dabe173e" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator -=</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a2333d6e7a2438bcea0672fb4dbfc7b91" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator &gt;</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a7d9aa0ee821fabd568fad397d4274bc8" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator &gt;=</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a79a63ab9c19b4fc86b225bbaba7435f3" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator &gt;&gt;</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a946dfd2531068c7e07946cb4b9af8fa2" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator &gt;&gt;=</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a0f9a8bcbc50de75e11d114a8c8629896" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator ^</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a2e3512db297a67899d84f57ba0ec31f5" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator ^</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a76fe5402cd5bcd53c850ce31704b5b57" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator ^=</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a09ab9caa6f21204eed61e6e96e9e72cc" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator ~</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a3d910bc1823b1290f26b1764a93e77ea" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator+</name></member>
+      <member refid="class_big_nums_1_1_big_number_1ab90a430bf6202a4f133fc915101cd929" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator+</name></member>
+      <member refid="class_big_nums_1_1_big_number_1aac54f4e6e678b26552cef3dbcd18d41f" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator++</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a62c972147e0c20614fa6f2b3831b15b8" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator++</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a99a14e0f44f08f04dd686a8fb1251338" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator+=</name></member>
+      <member refid="class_big_nums_1_1_big_number_1ada3ed05861f520f73182e42c9fb153cb" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator--</name></member>
+      <member refid="class_big_nums_1_1_big_number_1ab6475de98159ef5398b22449f5333368" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator--</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a1f3bac79755532f059e42f08126001fe" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator/</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a90fc1955ccdc202a1d41857dbe8a81a3" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator/</name></member>
+      <member refid="class_big_nums_1_1_big_number_1adff2df5d7288c36d4ab7dfd0b6f5ede4" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator/=</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a5908b93d7477c482d145b878fa003101" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator&lt;</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a8d081ba4f8cf93e90d74dbe013695b1c" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator&lt;</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a47e2ad103bf98d5fecb7a0ff01d36e60" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_big_nums_1_1_big_number_1ab6d6f57915676119fc27d509ffbc7aaa" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a82c0b0b700533df0c96523f5d6fbb2bc" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator&lt;&lt;=</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a787ad7c1ee1b244a545034fbe1e09431" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator&lt;=</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a05bfb6df81cae921364aec33df340215" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator&lt;=</name></member>
+      <member refid="class_big_nums_1_1_big_number_1abd9a823365d0e1f44b27adb87ce629cc" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator=</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a895aa35eca34f84db8c543f23274040a" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator==</name></member>
+      <member refid="class_big_nums_1_1_big_number_1add1b48504a6361ebffcef3c2b9fb5958" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator==</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a73fd242189f8c8439d4f001681d1ae51" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator&gt;</name></member>
+      <member refid="class_big_nums_1_1_big_number_1aa64caabb2b7a6a9bc6fc28e1abf961e3" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator&gt;=</name></member>
+      <member refid="class_big_nums_1_1_big_number_1adda5cd1a7aca6683ef84866af7e5bd0b" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator&gt;&gt;</name></member>
+      <member refid="class_big_nums_1_1_big_number_1ab3ebd73a1b9d6719be452f05f9e2ebce" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator[]</name></member>
+      <member refid="class_big_nums_1_1_big_number_1aa341f4a148c2d83057ccd78f7a048c41" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator[]</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a20db44e73666375cb56579d951ef87c4" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator|</name></member>
+      <member refid="class_big_nums_1_1_big_number_1acae6ae7757f89b2971c22d5d3c0cca29" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>operator|=</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a3b66caf45f60c11461d9f747c2245aa2" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>Pow</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a440be0c0feaf4be408ed8f7fa6b42926" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>RemoveLeadingZeros</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a7e47aaceaeacdfa5685158daa230dbfd" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>SetNumber</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a505eed1769193372c05a1c41ae0e707b" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>Subtract</name></member>
+      <member refid="class_big_nums_1_1_big_number_1a09e060fefa8279c48d5a5f12fde8c802" prot="public" virt="non-virtual"><scope>BigNums::BigNumber</scope><name>~BigNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

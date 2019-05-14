@@ -1,0 +1,1554 @@
+\hypertarget{class_big_nums_1_1_big_number}{}\section{Big\+Nums\+::Big\+Number Class Reference}
+\label{class_big_nums_1_1_big_number}\index{BigNums::BigNumber@{BigNums::BigNumber}}
+
+
+{\ttfamily \#include $<$Big\+Number.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_aead85993ce069442f7b15cca8c81df39}{Add}} (const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+addend)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a505eed1769193372c05a1c41ae0e707b}{Subtract}} (const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+subtrahend)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a7d54b0defb30727ab99a110b1b6c07ff}{Multiply}} (const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+multiplier)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a55f83d787d248c55d9df8347c2fcb7ed}{Divide}} (const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+divisor)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a1d7839794fa1b9dd285e017443d1859a}{Mod}} (const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+divisor)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a3b66caf45f60c11461d9f747c2245aa2}{Pow}} (int \+\_\+exponent)
+\item 
+const std\+::string \mbox{\hyperlink{class_big_nums_1_1_big_number_a1f81565a354b88000e6fa6657bd138c6}{Get\+String}} () const
+\item 
+long long int \mbox{\hyperlink{class_big_nums_1_1_big_number_a4fb18fef2725c13a977ef6545563e361}{Get\+Integer}} () const
+\item 
+std\+::vector$<$ char $>$ \mbox{\hyperlink{class_big_nums_1_1_big_number_af8f5505982e08fb73817cba94e70ff1c}{Get\+Number\+Value}} () const
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a02c53d5b7c27e3b80c5f8ee5982a8875}{Get\+Binary\+Value}} () const
+\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a7e47aaceaeacdfa5685158daa230dbfd}{Set\+Number}} (const T \&\+\_\+new\+Num)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a9f52fbb5f431c7d6a82e40f34e5b1f6e}{Negate}} ()
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a440be0c0feaf4be408ed8f7fa6b42926}{Remove\+Leading\+Zeros}} ()
+\item 
+bool \mbox{\hyperlink{class_big_nums_1_1_big_number_af459e1abf1ec5721b7288979e71cd672}{Equals}} (const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+compared\+Num) const
+\item 
+unsigned long long int \mbox{\hyperlink{class_big_nums_1_1_big_number_ae35841de4a2037e6edc02bcbf40600ba}{Digits}} () const
+\item 
+bool \mbox{\hyperlink{class_big_nums_1_1_big_number_af5203c02639f6dc409016bfb4710dafc}{Is\+Negative}} () const
+\item 
+bool \mbox{\hyperlink{class_big_nums_1_1_big_number_a8d1479eed46930fdcd374c85881c2864}{Is\+Positive}} () const
+\item 
+bool \mbox{\hyperlink{class_big_nums_1_1_big_number_abf9a23b42aa137baa8a040a6cf524cca}{Is\+Even}} () const
+\item 
+bool \mbox{\hyperlink{class_big_nums_1_1_big_number_afa4fe9880b4c307cd12ebbdbe94c28d2}{Is\+Odd}} () const
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_ae4675cb61567802acb26e194d63ac454}{Abs}} () const
+\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \& \mbox{\hyperlink{class_big_nums_1_1_big_number_abd9a823365d0e1f44b27adb87ce629cc}{operator=}} (const T \&\+\_\+dif\+Big\+Num)
+\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \& \mbox{\hyperlink{class_big_nums_1_1_big_number_a99a14e0f44f08f04dd686a8fb1251338}{operator+=}} (const T \&\+\_\+dif\+Big\+Num)
+\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \& \mbox{\hyperlink{class_big_nums_1_1_big_number_a2ac4094870ea13bc9b81c712dabe173e}{operator -\/=}} (const T \&\+\_\+dif\+Big\+Num)
+\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \& \mbox{\hyperlink{class_big_nums_1_1_big_number_a1fc741b943e941757495f5fc9663dd45}{operator $\ast$=}} (const T \&\+\_\+dif\+Big\+Num)
+\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \& \mbox{\hyperlink{class_big_nums_1_1_big_number_adff2df5d7288c36d4ab7dfd0b6f5ede4}{operator/=}} (const T \&\+\_\+dif\+Big\+Num)
+\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \& \mbox{\hyperlink{class_big_nums_1_1_big_number_a697d3b997151dcb9e0fe10e5ac44676a}{operator \%=}} (const T \&\+\_\+dif\+Big\+Num)
+\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \& \mbox{\hyperlink{class_big_nums_1_1_big_number_af98f69c51b85dc6d7af162346d8c40f4}{operator \&=}} (const T \&\+\_\+dif\+Big\+Num)
+\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \& \mbox{\hyperlink{class_big_nums_1_1_big_number_acae6ae7757f89b2971c22d5d3c0cca29}{operator$\vert$=}} (const T \&\+\_\+dif\+Big\+Num)
+\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \& \mbox{\hyperlink{class_big_nums_1_1_big_number_a76fe5402cd5bcd53c850ce31704b5b57}{operator $^\wedge$=}} (const T \&\+\_\+dif\+Big\+Num)
+\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \& \mbox{\hyperlink{class_big_nums_1_1_big_number_a82c0b0b700533df0c96523f5d6fbb2bc}{operator$<$$<$=}} (const T \&\+\_\+places)
+\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \& \mbox{\hyperlink{class_big_nums_1_1_big_number_a946dfd2531068c7e07946cb4b9af8fa2}{operator $>$$>$=}} (const T \&\+\_\+places)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \& \mbox{\hyperlink{class_big_nums_1_1_big_number_aac54f4e6e678b26552cef3dbcd18d41f}{operator++}} ()
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \& \mbox{\hyperlink{class_big_nums_1_1_big_number_ada3ed05861f520f73182e42c9fb153cb}{operator-\/-\/}} ()
+\item 
+const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a62c972147e0c20614fa6f2b3831b15b8}{operator++}} (int)
+\item 
+const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_ab6475de98159ef5398b22449f5333368}{operator-\/-\/}} (int)
+\end{DoxyCompactItemize}
+\textbf{ }\par
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number_a1567531627c79b2018363684cec9ed34}{Big\+Number}} ()
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number_a10752ca000f0362291294fc9d96a17fb}{Big\+Number}} (char number)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number_a20b7a7fe3497b4ff501360eb6a3f2975}{Big\+Number}} (unsigned char number)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number_a05b1e09de1d6504fb0d17abe59e1567e}{Big\+Number}} (const char $\ast$number)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number_a403ae18d7626dc619160b46b7d94e3d4}{Big\+Number}} (std\+::string number)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number_a10c73e0ca7d565c7f50907d88e653fcc}{Big\+Number}} (short number)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number_a7ffb48df9f893148c553a4ffba013bd5}{Big\+Number}} (unsigned short number)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number_a1a48f0ab5c66b95b98fba8e40371be90}{Big\+Number}} (int number)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number_ac9b6672f2bb3ef8da30635a83cc7d742}{Big\+Number}} (unsigned int number)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number_a1e9851c75b436dfd943456c9f6fe7d5f}{Big\+Number}} (long long number)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number_aff681535ca202ff247413e35e09388ad}{Big\+Number}} (unsigned long long number)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number_afa8357b2be149b6f21f404e8cb95ebf2}{Big\+Number}} (float number)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number_a2abf856e5d6fe96a174d6de3091580c5}{Big\+Number}} (double number)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number_aeb155e4d45721f93a813dc2dacacc914}{Big\+Number}} (long double number)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number_a02539ef464467b437b133dff855e67f0}{Big\+Number}} (const std\+::vector$<$ char $>$ \&number)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number_a3a065889297357cb69da1f503f017a27}{Big\+Number}} (const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&number)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number_a09e060fefa8279c48d5a5f12fde8c802}{$\sim$\+Big\+Number}} ()=default
+\end{DoxyCompactItemize}
+
+\textbf{ }\par
+\begin{DoxyCompactItemize}
+\item 
+char \mbox{\hyperlink{class_big_nums_1_1_big_number_ab3ebd73a1b9d6719be452f05f9e2ebce}{operator\mbox{[}$\,$\mbox{]}}} (int index) const
+\item 
+char \& \mbox{\hyperlink{class_big_nums_1_1_big_number_aa341f4a148c2d83057ccd78f7a048c41}{operator\mbox{[}$\,$\mbox{]}}} (int index)
+\end{DoxyCompactItemize}
+
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{class_big_nums_1_1_big_number_a47e2ad103bf98d5fecb7a0ff01d36e60}{operator$<$$<$}} (std\+::ostream \&output\+Stream, const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num)
+\item 
+std\+::istream \& \mbox{\hyperlink{class_big_nums_1_1_big_number_adda5cd1a7aca6683ef84866af7e5bd0b}{operator$>$$>$}} (std\+::istream \&input\+Stream, \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a0f9a8bcbc50de75e11d114a8c8629896}{operator $^\wedge$}} (\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \+\_\+base, int \+\_\+power)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a177683ba51aeb898d01c71f978e7b437}{operator \&}} (const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num1, const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num2)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a20db44e73666375cb56579d951ef87c4}{operator$\vert$}} (const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num1, const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num2)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a2e3512db297a67899d84f57ba0ec31f5}{operator $^\wedge$}} (const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num1, const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num2)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_ab6d6f57915676119fc27d509ffbc7aaa}{operator$<$$<$}} (const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num, int num\+Of\+Places)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a79a63ab9c19b4fc86b225bbaba7435f3}{operator $>$$>$}} (const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num, int num\+Of\+Places)
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a09ab9caa6f21204eed61e6e96e9e72cc}{operator $\sim$}} (const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num)
+\end{DoxyCompactItemize}
+\textbf{ }\par
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a3d910bc1823b1290f26b1764a93e77ea}{operator+}} (\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \+\_\+addend1, const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+addend2)
+\item 
+{\footnotesize template$<$typename T , typename U $>$ }\\\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_ab90a430bf6202a4f133fc915101cd929}{operator+}} (const T \&\+\_\+addend1, const U \&\+\_\+addend2)
+\end{DoxyCompactItemize}
+
+\textbf{ }\par
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a9a4cb9889d9180fb6bc9bfdb1de1e8b9}{operator -\/}} (\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \+\_\+minuend, const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+subtrahend)
+\item 
+{\footnotesize template$<$typename T , typename U $>$ }\\\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_abafc9bc65d3cf2b1a87fe226d37b107c}{operator -\/}} (const T \&\+\_\+minuend, const U \&\+\_\+subtrahend)
+\end{DoxyCompactItemize}
+
+\textbf{ }\par
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_aa1017a29d47606c15545ea481c1f5dbf}{operator -\/}} (const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num)
+\end{DoxyCompactItemize}
+
+\textbf{ }\par
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a390a7b0928f684129947af34272b1def}{operator $\ast$}} (\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \+\_\+multiplicand, const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+multiplier)
+\item 
+{\footnotesize template$<$typename T , typename U $>$ }\\\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_ad33abbbc2055753a8b76762a6d5ef947}{operator $\ast$}} (const T \&\+\_\+multiplicand, const U \&\+\_\+multiplier)
+\end{DoxyCompactItemize}
+
+\textbf{ }\par
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a1f3bac79755532f059e42f08126001fe}{operator/}} (\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \+\_\+dividend, const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+divisor)
+\item 
+{\footnotesize template$<$typename T , typename U $>$ }\\\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a90fc1955ccdc202a1d41857dbe8a81a3}{operator/}} (const T \&\+\_\+dividend, const U \&\+\_\+divisor)
+\end{DoxyCompactItemize}
+
+\textbf{ }\par
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a22a2ab555ef01a5b6cdc31751156e4dd}{operator \%}} (\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \+\_\+dividend, const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+divisor)
+\item 
+{\footnotesize template$<$typename T , typename U $>$ }\\\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \mbox{\hyperlink{class_big_nums_1_1_big_number_a17162af4b3ce281f1ac33820450986cd}{operator \%}} (const T \&\+\_\+dividend, const U \&\+\_\+divisor)
+\end{DoxyCompactItemize}
+
+\textbf{ }\par
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_big_nums_1_1_big_number_a895aa35eca34f84db8c543f23274040a}{operator==}} (const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num1, const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num2)
+\item 
+{\footnotesize template$<$typename T , typename U $>$ }\\bool \mbox{\hyperlink{class_big_nums_1_1_big_number_add1b48504a6361ebffcef3c2b9fb5958}{operator==}} (const T \&\+\_\+big\+Num1, const U \&\+\_\+big\+Num2)
+\end{DoxyCompactItemize}
+
+\textbf{ }\par
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T , typename U $>$ }\\bool \mbox{\hyperlink{class_big_nums_1_1_big_number_a7311ab2265ec5536725ffdc2dcfb7dcb}{operator !=}} (const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num1, const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num2)
+\item 
+{\footnotesize template$<$typename T , typename U $>$ }\\bool \mbox{\hyperlink{class_big_nums_1_1_big_number_a06943b4fe9e60b40857108c3d1a40c4b}{operator !=}} (const T \&\+\_\+big\+Num1, const U \&\+\_\+big\+Num2)
+\end{DoxyCompactItemize}
+
+\textbf{ }\par
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_big_nums_1_1_big_number_a73fd242189f8c8439d4f001681d1ae51}{operator$>$}} (const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num1, const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num2)
+\item 
+{\footnotesize template$<$typename T , typename U $>$ }\\bool \mbox{\hyperlink{class_big_nums_1_1_big_number_a2333d6e7a2438bcea0672fb4dbfc7b91}{operator $>$}} (const T \&\+\_\+big\+Num1, const U \&\+\_\+big\+Num2)
+\end{DoxyCompactItemize}
+
+\textbf{ }\par
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_big_nums_1_1_big_number_a5908b93d7477c482d145b878fa003101}{operator$<$}} (const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num1, const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num2)
+\item 
+{\footnotesize template$<$typename T , typename U $>$ }\\bool \mbox{\hyperlink{class_big_nums_1_1_big_number_a8d081ba4f8cf93e90d74dbe013695b1c}{operator$<$}} (const T \&\+\_\+big\+Num1, const U \&\+\_\+big\+Num2)
+\end{DoxyCompactItemize}
+
+\textbf{ }\par
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_big_nums_1_1_big_number_aa64caabb2b7a6a9bc6fc28e1abf961e3}{operator$>$=}} (const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num1, const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num2)
+\item 
+{\footnotesize template$<$typename T , typename U $>$ }\\bool \mbox{\hyperlink{class_big_nums_1_1_big_number_a7d9aa0ee821fabd568fad397d4274bc8}{operator $>$=}} (const T \&\+\_\+big\+Num1, const U \&\+\_\+big\+Num2)
+\end{DoxyCompactItemize}
+
+\textbf{ }\par
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_big_nums_1_1_big_number_a787ad7c1ee1b244a545034fbe1e09431}{operator$<$=}} (const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num1, const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&\+\_\+big\+Num2)
+\item 
+{\footnotesize template$<$typename T , typename U $>$ }\\bool \mbox{\hyperlink{class_big_nums_1_1_big_number_a05bfb6df81cae921364aec33df340215}{operator$<$=}} (T \+\_\+big\+Num1, const U \&\+\_\+big\+Num2)
+\end{DoxyCompactItemize}
+
+
+
+\subsection{Detailed Description}
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} class~\newline
+Digits of the number are stored in a vector of characters~\newline
+representing the different digits of the numbers 
+
+Definition at line 21 of file Big\+Number.\+h.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a1567531627c79b2018363684cec9ed34}\label{class_big_nums_1_1_big_number_a1567531627c79b2018363684cec9ed34}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!BigNumber@{BigNumber}}
+\index{BigNumber@{BigNumber}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{BigNumber()}{BigNumber()}\hspace{0.1cm}{\footnotesize\ttfamily [1/16]}}
+{\footnotesize\ttfamily Big\+Nums\+::\+Big\+Number\+::\+Big\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Vector holding digits of the current instance \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} constructor~\newline
+Support for all data types 
+\begin{DoxyParams}{Parameters}
+{\em number} & The initial value of the \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 9 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a10752ca000f0362291294fc9d96a17fb}\label{class_big_nums_1_1_big_number_a10752ca000f0362291294fc9d96a17fb}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!BigNumber@{BigNumber}}
+\index{BigNumber@{BigNumber}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{BigNumber()}{BigNumber()}\hspace{0.1cm}{\footnotesize\ttfamily [2/16]}}
+{\footnotesize\ttfamily Big\+Nums\+::\+Big\+Number\+::\+Big\+Number (\begin{DoxyParamCaption}\item[{char}]{number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Definition at line 14 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a20b7a7fe3497b4ff501360eb6a3f2975}\label{class_big_nums_1_1_big_number_a20b7a7fe3497b4ff501360eb6a3f2975}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!BigNumber@{BigNumber}}
+\index{BigNumber@{BigNumber}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{BigNumber()}{BigNumber()}\hspace{0.1cm}{\footnotesize\ttfamily [3/16]}}
+{\footnotesize\ttfamily Big\+Nums\+::\+Big\+Number\+::\+Big\+Number (\begin{DoxyParamCaption}\item[{unsigned char}]{number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Definition at line 19 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a05b1e09de1d6504fb0d17abe59e1567e}\label{class_big_nums_1_1_big_number_a05b1e09de1d6504fb0d17abe59e1567e}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!BigNumber@{BigNumber}}
+\index{BigNumber@{BigNumber}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{BigNumber()}{BigNumber()}\hspace{0.1cm}{\footnotesize\ttfamily [4/16]}}
+{\footnotesize\ttfamily Big\+Nums\+::\+Big\+Number\+::\+Big\+Number (\begin{DoxyParamCaption}\item[{const char $\ast$}]{number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Definition at line 24 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a403ae18d7626dc619160b46b7d94e3d4}\label{class_big_nums_1_1_big_number_a403ae18d7626dc619160b46b7d94e3d4}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!BigNumber@{BigNumber}}
+\index{BigNumber@{BigNumber}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{BigNumber()}{BigNumber()}\hspace{0.1cm}{\footnotesize\ttfamily [5/16]}}
+{\footnotesize\ttfamily Big\+Nums\+::\+Big\+Number\+::\+Big\+Number (\begin{DoxyParamCaption}\item[{std\+::string}]{number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Definition at line 30 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a10c73e0ca7d565c7f50907d88e653fcc}\label{class_big_nums_1_1_big_number_a10c73e0ca7d565c7f50907d88e653fcc}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!BigNumber@{BigNumber}}
+\index{BigNumber@{BigNumber}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{BigNumber()}{BigNumber()}\hspace{0.1cm}{\footnotesize\ttfamily [6/16]}}
+{\footnotesize\ttfamily Big\+Nums\+::\+Big\+Number\+::\+Big\+Number (\begin{DoxyParamCaption}\item[{short}]{number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Definition at line 35 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a7ffb48df9f893148c553a4ffba013bd5}\label{class_big_nums_1_1_big_number_a7ffb48df9f893148c553a4ffba013bd5}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!BigNumber@{BigNumber}}
+\index{BigNumber@{BigNumber}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{BigNumber()}{BigNumber()}\hspace{0.1cm}{\footnotesize\ttfamily [7/16]}}
+{\footnotesize\ttfamily Big\+Nums\+::\+Big\+Number\+::\+Big\+Number (\begin{DoxyParamCaption}\item[{unsigned short}]{number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Definition at line 41 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a1a48f0ab5c66b95b98fba8e40371be90}\label{class_big_nums_1_1_big_number_a1a48f0ab5c66b95b98fba8e40371be90}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!BigNumber@{BigNumber}}
+\index{BigNumber@{BigNumber}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{BigNumber()}{BigNumber()}\hspace{0.1cm}{\footnotesize\ttfamily [8/16]}}
+{\footnotesize\ttfamily Big\+Nums\+::\+Big\+Number\+::\+Big\+Number (\begin{DoxyParamCaption}\item[{int}]{number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Definition at line 47 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_ac9b6672f2bb3ef8da30635a83cc7d742}\label{class_big_nums_1_1_big_number_ac9b6672f2bb3ef8da30635a83cc7d742}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!BigNumber@{BigNumber}}
+\index{BigNumber@{BigNumber}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{BigNumber()}{BigNumber()}\hspace{0.1cm}{\footnotesize\ttfamily [9/16]}}
+{\footnotesize\ttfamily Big\+Nums\+::\+Big\+Number\+::\+Big\+Number (\begin{DoxyParamCaption}\item[{unsigned int}]{number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Definition at line 53 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a1e9851c75b436dfd943456c9f6fe7d5f}\label{class_big_nums_1_1_big_number_a1e9851c75b436dfd943456c9f6fe7d5f}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!BigNumber@{BigNumber}}
+\index{BigNumber@{BigNumber}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{BigNumber()}{BigNumber()}\hspace{0.1cm}{\footnotesize\ttfamily [10/16]}}
+{\footnotesize\ttfamily Big\+Nums\+::\+Big\+Number\+::\+Big\+Number (\begin{DoxyParamCaption}\item[{long long}]{number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Definition at line 59 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_aff681535ca202ff247413e35e09388ad}\label{class_big_nums_1_1_big_number_aff681535ca202ff247413e35e09388ad}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!BigNumber@{BigNumber}}
+\index{BigNumber@{BigNumber}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{BigNumber()}{BigNumber()}\hspace{0.1cm}{\footnotesize\ttfamily [11/16]}}
+{\footnotesize\ttfamily Big\+Nums\+::\+Big\+Number\+::\+Big\+Number (\begin{DoxyParamCaption}\item[{unsigned long long}]{number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Definition at line 65 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_afa8357b2be149b6f21f404e8cb95ebf2}\label{class_big_nums_1_1_big_number_afa8357b2be149b6f21f404e8cb95ebf2}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!BigNumber@{BigNumber}}
+\index{BigNumber@{BigNumber}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{BigNumber()}{BigNumber()}\hspace{0.1cm}{\footnotesize\ttfamily [12/16]}}
+{\footnotesize\ttfamily Big\+Nums\+::\+Big\+Number\+::\+Big\+Number (\begin{DoxyParamCaption}\item[{float}]{number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Definition at line 71 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a2abf856e5d6fe96a174d6de3091580c5}\label{class_big_nums_1_1_big_number_a2abf856e5d6fe96a174d6de3091580c5}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!BigNumber@{BigNumber}}
+\index{BigNumber@{BigNumber}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{BigNumber()}{BigNumber()}\hspace{0.1cm}{\footnotesize\ttfamily [13/16]}}
+{\footnotesize\ttfamily Big\+Nums\+::\+Big\+Number\+::\+Big\+Number (\begin{DoxyParamCaption}\item[{double}]{number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Definition at line 77 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_aeb155e4d45721f93a813dc2dacacc914}\label{class_big_nums_1_1_big_number_aeb155e4d45721f93a813dc2dacacc914}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!BigNumber@{BigNumber}}
+\index{BigNumber@{BigNumber}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{BigNumber()}{BigNumber()}\hspace{0.1cm}{\footnotesize\ttfamily [14/16]}}
+{\footnotesize\ttfamily Big\+Nums\+::\+Big\+Number\+::\+Big\+Number (\begin{DoxyParamCaption}\item[{long double}]{number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Definition at line 83 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a02539ef464467b437b133dff855e67f0}\label{class_big_nums_1_1_big_number_a02539ef464467b437b133dff855e67f0}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!BigNumber@{BigNumber}}
+\index{BigNumber@{BigNumber}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{BigNumber()}{BigNumber()}\hspace{0.1cm}{\footnotesize\ttfamily [15/16]}}
+{\footnotesize\ttfamily Big\+Nums\+::\+Big\+Number\+::\+Big\+Number (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ char $>$ \&}]{number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Definition at line 89 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a3a065889297357cb69da1f503f017a27}\label{class_big_nums_1_1_big_number_a3a065889297357cb69da1f503f017a27}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!BigNumber@{BigNumber}}
+\index{BigNumber@{BigNumber}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{BigNumber()}{BigNumber()}\hspace{0.1cm}{\footnotesize\ttfamily [16/16]}}
+{\footnotesize\ttfamily Big\+Nums\+::\+Big\+Number\+::\+Big\+Number (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{number }\end{DoxyParamCaption})}
+
+
+
+Definition at line 94 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a09e060fefa8279c48d5a5f12fde8c802}\label{class_big_nums_1_1_big_number_a09e060fefa8279c48d5a5f12fde8c802}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!````~BigNumber@{$\sim$BigNumber}}
+\index{````~BigNumber@{$\sim$BigNumber}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{$\sim$BigNumber()}{~BigNumber()}}
+{\footnotesize\ttfamily Big\+Nums\+::\+Big\+Number\+::$\sim$\+Big\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_ae4675cb61567802acb26e194d63ac454}\label{class_big_nums_1_1_big_number_ae4675cb61567802acb26e194d63ac454}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!Abs@{Abs}}
+\index{Abs@{Abs}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{Abs()}{Abs()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} Big\+Nums\+::\+Big\+Number\+::\+Abs (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the absolute value of the current instance \begin{DoxyReturn}{Returns}
+The \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} absolute value 
+\end{DoxyReturn}
+
+
+Definition at line 702 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_aead85993ce069442f7b15cca8c81df39}\label{class_big_nums_1_1_big_number_aead85993ce069442f7b15cca8c81df39}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!Add@{Add}}
+\index{Add@{Add}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{Add()}{Add()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} Big\+Nums\+::\+Big\+Number\+::\+Add (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+addend }\end{DoxyParamCaption})}
+
+Add another \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} to the current instance 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+addend} & The \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} being added by \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The sum of the two Big\+Numbers 
+\end{DoxyReturn}
+
+
+Definition at line 99 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_ae35841de4a2037e6edc02bcbf40600ba}\label{class_big_nums_1_1_big_number_ae35841de4a2037e6edc02bcbf40600ba}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!Digits@{Digits}}
+\index{Digits@{Digits}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{Digits()}{Digits()}}
+{\footnotesize\ttfamily unsigned long long int Big\+Nums\+::\+Big\+Number\+::\+Digits (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the number of digits in the current instance \begin{DoxyReturn}{Returns}
+The number of digits 
+\end{DoxyReturn}
+
+
+Definition at line 672 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a55f83d787d248c55d9df8347c2fcb7ed}\label{class_big_nums_1_1_big_number_a55f83d787d248c55d9df8347c2fcb7ed}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!Divide@{Divide}}
+\index{Divide@{Divide}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{Divide()}{Divide()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} Big\+Nums\+::\+Big\+Number\+::\+Divide (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+divisor }\end{DoxyParamCaption})}
+
+Divide the current instance by another \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+divisor} & The \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} being divided by \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The quotient of the two Big\+Numbers 
+\end{DoxyReturn}
+
+
+Definition at line 466 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_af459e1abf1ec5721b7288979e71cd672}\label{class_big_nums_1_1_big_number_af459e1abf1ec5721b7288979e71cd672}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!Equals@{Equals}}
+\index{Equals@{Equals}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{Equals()}{Equals()}}
+{\footnotesize\ttfamily bool Big\+Nums\+::\+Big\+Number\+::\+Equals (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+compared\+Num }\end{DoxyParamCaption}) const}
+
+Check if another \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} is equal to the current instance 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+compared\+Num} & The \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} being compared \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if equal, false if not 
+\end{DoxyReturn}
+
+
+Definition at line 667 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a02c53d5b7c27e3b80c5f8ee5982a8875}\label{class_big_nums_1_1_big_number_a02c53d5b7c27e3b80c5f8ee5982a8875}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!GetBinaryValue@{GetBinaryValue}}
+\index{GetBinaryValue@{GetBinaryValue}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{GetBinaryValue()}{GetBinaryValue()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} Big\+Nums\+::\+Big\+Number\+::\+Get\+Binary\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the value of the current instance as bits \begin{DoxyReturn}{Returns}
+The \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} value represented as bits 
+\end{DoxyReturn}
+
+
+Definition at line 612 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a4fb18fef2725c13a977ef6545563e361}\label{class_big_nums_1_1_big_number_a4fb18fef2725c13a977ef6545563e361}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!GetInteger@{GetInteger}}
+\index{GetInteger@{GetInteger}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{GetInteger()}{GetInteger()}}
+{\footnotesize\ttfamily long long int Big\+Nums\+::\+Big\+Number\+::\+Get\+Integer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the integer value of the current instance \begin{DoxyReturn}{Returns}
+The \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} value as a long long int 
+\end{DoxyReturn}
+
+
+Definition at line 596 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_af8f5505982e08fb73817cba94e70ff1c}\label{class_big_nums_1_1_big_number_af8f5505982e08fb73817cba94e70ff1c}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!GetNumberValue@{GetNumberValue}}
+\index{GetNumberValue@{GetNumberValue}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{GetNumberValue()}{GetNumberValue()}}
+{\footnotesize\ttfamily std\+::vector$<$ char $>$ Big\+Nums\+::\+Big\+Number\+::\+Get\+Number\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the value of current instance as a vector of chars \begin{DoxyReturn}{Returns}
+The \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} value as a vector 
+\end{DoxyReturn}
+
+
+Definition at line 607 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a1f81565a354b88000e6fa6657bd138c6}\label{class_big_nums_1_1_big_number_a1f81565a354b88000e6fa6657bd138c6}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!GetString@{GetString}}
+\index{GetString@{GetString}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{GetString()}{GetString()}}
+{\footnotesize\ttfamily const std\+::string Big\+Nums\+::\+Big\+Number\+::\+Get\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the string value of the current instance \begin{DoxyReturn}{Returns}
+The \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} value as a string 
+\end{DoxyReturn}
+
+
+Definition at line 583 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_abf9a23b42aa137baa8a040a6cf524cca}\label{class_big_nums_1_1_big_number_abf9a23b42aa137baa8a040a6cf524cca}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!IsEven@{IsEven}}
+\index{IsEven@{IsEven}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{IsEven()}{IsEven()}}
+{\footnotesize\ttfamily bool Big\+Nums\+::\+Big\+Number\+::\+Is\+Even (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get if the current instance is even \begin{DoxyReturn}{Returns}
+True if even, False if odd 
+\end{DoxyReturn}
+
+
+Definition at line 692 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_af5203c02639f6dc409016bfb4710dafc}\label{class_big_nums_1_1_big_number_af5203c02639f6dc409016bfb4710dafc}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!IsNegative@{IsNegative}}
+\index{IsNegative@{IsNegative}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{IsNegative()}{IsNegative()}}
+{\footnotesize\ttfamily bool Big\+Nums\+::\+Big\+Number\+::\+Is\+Negative (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get if the current instance is negative \begin{DoxyReturn}{Returns}
+True if negative, False if positive 
+\end{DoxyReturn}
+
+
+Definition at line 682 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_afa4fe9880b4c307cd12ebbdbe94c28d2}\label{class_big_nums_1_1_big_number_afa4fe9880b4c307cd12ebbdbe94c28d2}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!IsOdd@{IsOdd}}
+\index{IsOdd@{IsOdd}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{IsOdd()}{IsOdd()}}
+{\footnotesize\ttfamily bool Big\+Nums\+::\+Big\+Number\+::\+Is\+Odd (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get if the current instance is odd \begin{DoxyReturn}{Returns}
+True if odd, False if even 
+\end{DoxyReturn}
+
+
+Definition at line 697 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a8d1479eed46930fdcd374c85881c2864}\label{class_big_nums_1_1_big_number_a8d1479eed46930fdcd374c85881c2864}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!IsPositive@{IsPositive}}
+\index{IsPositive@{IsPositive}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{IsPositive()}{IsPositive()}}
+{\footnotesize\ttfamily bool Big\+Nums\+::\+Big\+Number\+::\+Is\+Positive (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get if the current instance is positive \begin{DoxyReturn}{Returns}
+True if positive, False if negative 
+\end{DoxyReturn}
+
+
+Definition at line 687 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a1d7839794fa1b9dd285e017443d1859a}\label{class_big_nums_1_1_big_number_a1d7839794fa1b9dd285e017443d1859a}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!Mod@{Mod}}
+\index{Mod@{Mod}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{Mod()}{Mod()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} Big\+Nums\+::\+Big\+Number\+::\+Mod (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+divisor }\end{DoxyParamCaption})}
+
+Mod the current instance by another \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+divisor} & The Big Number being divided by \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The remainder of the two Big\+Numbers 
+\end{DoxyReturn}
+
+
+Definition at line 511 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a7d54b0defb30727ab99a110b1b6c07ff}\label{class_big_nums_1_1_big_number_a7d54b0defb30727ab99a110b1b6c07ff}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!Multiply@{Multiply}}
+\index{Multiply@{Multiply}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{Multiply()}{Multiply()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} Big\+Nums\+::\+Big\+Number\+::\+Multiply (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+multiplier }\end{DoxyParamCaption})}
+
+Multiply the current instance by another \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+multiplier} & The \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} being multiplied by \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The product of the two Big\+Numbers 
+\end{DoxyReturn}
+
+
+Definition at line 368 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a9f52fbb5f431c7d6a82e40f34e5b1f6e}\label{class_big_nums_1_1_big_number_a9f52fbb5f431c7d6a82e40f34e5b1f6e}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!Negate@{Negate}}
+\index{Negate@{Negate}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{Negate()}{Negate()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} Big\+Nums\+::\+Big\+Number\+::\+Negate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Negates the value of the current instance \begin{DoxyReturn}{Returns}
+The \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} after negation 
+\end{DoxyReturn}
+
+
+Definition at line 633 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a697d3b997151dcb9e0fe10e5ac44676a}\label{class_big_nums_1_1_big_number_a697d3b997151dcb9e0fe10e5ac44676a}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator \%=@{operator \%=}}
+\index{operator \%=@{operator \%=}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator \%=()}{operator \%=()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}}\& Big\+Nums\+::\+Big\+Number\+::operator \%= (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+dif\+Big\+Num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Mod assignment operator~\newline
+Assigns the remainder of the current instance and \+\_\+dif\+Big\+Num to current instance 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+dif\+Big\+Num} & The value being divided \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The new value after division and assignment 
+\end{DoxyReturn}
+
+
+Definition at line 540 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_af98f69c51b85dc6d7af162346d8c40f4}\label{class_big_nums_1_1_big_number_af98f69c51b85dc6d7af162346d8c40f4}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator \&=@{operator \&=}}
+\index{operator \&=@{operator \&=}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator \&=()}{operator \&=()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}}\& Big\+Nums\+::\+Big\+Number\+::operator \&= (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+dif\+Big\+Num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+A\+ND assignment operator~\newline
+Assigns the A\+ND value of the current instance and \+\_\+dif\+Big\+Num to current instance 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+dif\+Big\+Num} & The value being A\+N\+Ded \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The new value after A\+ND and assignment 
+\end{DoxyReturn}
+
+
+Definition at line 553 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a1fc741b943e941757495f5fc9663dd45}\label{class_big_nums_1_1_big_number_a1fc741b943e941757495f5fc9663dd45}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator $\ast$=@{operator $\ast$=}}
+\index{operator $\ast$=@{operator $\ast$=}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator $\ast$=()}{operator *=()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}}\& Big\+Nums\+::\+Big\+Number\+::operator $\ast$= (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+dif\+Big\+Num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Multiplication assignment operator~\newline
+Assigns the product of the current instance and \+\_\+dif\+Big\+Num to current instance 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+dif\+Big\+Num} & The value being multiplied \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The new value after multiplication and assignment 
+\end{DoxyReturn}
+
+
+Definition at line 514 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a2ac4094870ea13bc9b81c712dabe173e}\label{class_big_nums_1_1_big_number_a2ac4094870ea13bc9b81c712dabe173e}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator -\/=@{operator -\/=}}
+\index{operator -\/=@{operator -\/=}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator -\/=()}{operator -=()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}}\& Big\+Nums\+::\+Big\+Number\+::operator -\/= (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+dif\+Big\+Num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Subtraction assignment operator~\newline
+Assigns the difference of the current instance and \+\_\+dif\+Big\+Num to current instance 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+dif\+Big\+Num} & The value being subtracted \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The new value after subtraction and assignment 
+\end{DoxyReturn}
+
+
+Definition at line 501 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a946dfd2531068c7e07946cb4b9af8fa2}\label{class_big_nums_1_1_big_number_a946dfd2531068c7e07946cb4b9af8fa2}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator $>$$>$=@{operator $>$$>$=}}
+\index{operator $>$$>$=@{operator $>$$>$=}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator $>$$>$=()}{operator >>=()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}}\& Big\+Nums\+::\+Big\+Number\+::operator $>$$>$= (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+places }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Right shift assignment operator~\newline
+Assigns the right shift value of the current instance and \+\_\+dif\+Big\+Num to current instance 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+places} & The value right shift \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The new value after right shift and assignment 
+\end{DoxyReturn}
+
+
+Definition at line 605 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a76fe5402cd5bcd53c850ce31704b5b57}\label{class_big_nums_1_1_big_number_a76fe5402cd5bcd53c850ce31704b5b57}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator $^\wedge$=@{operator $^\wedge$=}}
+\index{operator $^\wedge$=@{operator $^\wedge$=}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator $^\wedge$=()}{operator ^=()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}}\& Big\+Nums\+::\+Big\+Number\+::operator $^\wedge$= (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+dif\+Big\+Num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+X\+OR assignment operator~\newline
+ Assigns the X\+OR value of the current instance and \+\_\+dif\+Big\+Num to current instance 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+dif\+Big\+Num} & The value being X\+O\+Red \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The new value after X\+OR and assignment 
+\end{DoxyReturn}
+
+
+Definition at line 579 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_aac54f4e6e678b26552cef3dbcd18d41f}\label{class_big_nums_1_1_big_number_aac54f4e6e678b26552cef3dbcd18d41f}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator++@{operator++}}
+\index{operator++@{operator++}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator++()}{operator++()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \& Big\+Nums\+::\+Big\+Number\+::operator++ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Pre-\/increment operator \begin{DoxyReturn}{Returns}
+The incremented \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} 
+\end{DoxyReturn}
+
+
+Definition at line 1003 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a62c972147e0c20614fa6f2b3831b15b8}\label{class_big_nums_1_1_big_number_a62c972147e0c20614fa6f2b3831b15b8}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator++@{operator++}}
+\index{operator++@{operator++}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator++()}{operator++()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} Big\+Nums\+::\+Big\+Number\+::operator++ (\begin{DoxyParamCaption}\item[{int}]{ }\end{DoxyParamCaption})}
+
+Post-\/increment operator \begin{DoxyReturn}{Returns}
+The pre-\/incremented \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} 
+\end{DoxyReturn}
+
+
+Definition at line 1015 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a99a14e0f44f08f04dd686a8fb1251338}\label{class_big_nums_1_1_big_number_a99a14e0f44f08f04dd686a8fb1251338}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator+=()}{operator+=()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}}\& Big\+Nums\+::\+Big\+Number\+::operator+= (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+dif\+Big\+Num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Addition assignment operator~\newline
+Assigns the sum of the current instance and \+\_\+dif\+Big\+Num to current instance 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+dif\+Big\+Num} & The value being added \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The new value after addition and assignment 
+\end{DoxyReturn}
+
+
+Definition at line 488 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_ada3ed05861f520f73182e42c9fb153cb}\label{class_big_nums_1_1_big_number_ada3ed05861f520f73182e42c9fb153cb}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator-\/-\/@{operator-\/-\/}}
+\index{operator-\/-\/@{operator-\/-\/}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator-\/-\/()}{operator--()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \& Big\+Nums\+::\+Big\+Number\+::operator-\/-\/ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Pre-\/decrement operator \begin{DoxyReturn}{Returns}
+The decremented \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} 
+\end{DoxyReturn}
+
+
+Definition at line 1009 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_ab6475de98159ef5398b22449f5333368}\label{class_big_nums_1_1_big_number_ab6475de98159ef5398b22449f5333368}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator-\/-\/@{operator-\/-\/}}
+\index{operator-\/-\/@{operator-\/-\/}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator-\/-\/()}{operator--()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} Big\+Nums\+::\+Big\+Number\+::operator-\/-\/ (\begin{DoxyParamCaption}\item[{int}]{ }\end{DoxyParamCaption})}
+
+Post-\/decrement operator \begin{DoxyReturn}{Returns}
+The pre-\/decremented \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} 
+\end{DoxyReturn}
+
+
+Definition at line 1022 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_adff2df5d7288c36d4ab7dfd0b6f5ede4}\label{class_big_nums_1_1_big_number_adff2df5d7288c36d4ab7dfd0b6f5ede4}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator/=@{operator/=}}
+\index{operator/=@{operator/=}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator/=()}{operator/=()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}}\& Big\+Nums\+::\+Big\+Number\+::operator/= (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+dif\+Big\+Num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Division assignment operator~\newline
+Assigns the quotient of the current instance and \+\_\+dif\+Big\+Num to current instance 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+dif\+Big\+Num} & The value being divided \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The new value after division and assignment 
+\end{DoxyReturn}
+
+
+Definition at line 527 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a82c0b0b700533df0c96523f5d6fbb2bc}\label{class_big_nums_1_1_big_number_a82c0b0b700533df0c96523f5d6fbb2bc}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator$<$$<$=@{operator$<$$<$=}}
+\index{operator$<$$<$=@{operator$<$$<$=}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator$<$$<$=()}{operator<<=()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}}\& Big\+Nums\+::\+Big\+Number\+::operator$<$$<$= (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+places }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Left shift assignment operator~\newline
+Assigns the left shift value of the current instance and \+\_\+dif\+Big\+Num to current instance 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+places} & The value being left shifted \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The new value after left shift and assignment 
+\end{DoxyReturn}
+
+
+Definition at line 592 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_abd9a823365d0e1f44b27adb87ce629cc}\label{class_big_nums_1_1_big_number_abd9a823365d0e1f44b27adb87ce629cc}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator=@{operator=}}
+\index{operator=@{operator=}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}}\& Big\+Nums\+::\+Big\+Number\+::operator= (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+dif\+Big\+Num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Assignment operator 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+dif\+Big\+Num} & The new value for the \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} containing the new value 
+\end{DoxyReturn}
+
+
+Definition at line 474 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_ab3ebd73a1b9d6719be452f05f9e2ebce}\label{class_big_nums_1_1_big_number_ab3ebd73a1b9d6719be452f05f9e2ebce}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily char Big\+Nums\+::\+Big\+Number\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption}) const}
+
+The index operator 
+\begin{DoxyParams}{Parameters}
+{\em index} & The position in the \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} digit vector \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value at the indexed position 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_aa341f4a148c2d83057ccd78f7a048c41}\label{class_big_nums_1_1_big_number_aa341f4a148c2d83057ccd78f7a048c41}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator\mbox{[}\mbox{]}@{operator[]}}
+\index{operator\mbox{[}\mbox{]}@{operator[]}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator[]()}{operator[]()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily char\& Big\+Nums\+::\+Big\+Number\+::operator\mbox{[}$\,$\mbox{]} (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_acae6ae7757f89b2971c22d5d3c0cca29}\label{class_big_nums_1_1_big_number_acae6ae7757f89b2971c22d5d3c0cca29}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator\texttt{"|}=@{operator\texttt{"|}=}}
+\index{operator\texttt{"|}=@{operator\texttt{"|}=}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator\texttt{"|}=()}{operator|=()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}}\& Big\+Nums\+::\+Big\+Number\+::operator$\vert$= (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+dif\+Big\+Num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+OR assignment operator~\newline
+ Assigns the OR value of the current instance and \+\_\+dif\+Big\+Num to current instance 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+dif\+Big\+Num} & The value being O\+Red \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The new value after OR and assignment 
+\end{DoxyReturn}
+
+
+Definition at line 566 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a3b66caf45f60c11461d9f747c2245aa2}\label{class_big_nums_1_1_big_number_a3b66caf45f60c11461d9f747c2245aa2}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!Pow@{Pow}}
+\index{Pow@{Pow}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{Pow()}{Pow()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} Big\+Nums\+::\+Big\+Number\+::\+Pow (\begin{DoxyParamCaption}\item[{int}]{\+\_\+exponent }\end{DoxyParamCaption})}
+
+Raise the current instance to the power of an exponent 
+\begin{DoxyParams}{Parameters}
+{\em exponent} & The power to be raised by \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/ The \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} calculated 
+\end{DoxyReturn}
+
+
+Definition at line 555 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a440be0c0feaf4be408ed8f7fa6b42926}\label{class_big_nums_1_1_big_number_a440be0c0feaf4be408ed8f7fa6b42926}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!RemoveLeadingZeros@{RemoveLeadingZeros}}
+\index{RemoveLeadingZeros@{RemoveLeadingZeros}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{RemoveLeadingZeros()}{RemoveLeadingZeros()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} Big\+Nums\+::\+Big\+Number\+::\+Remove\+Leading\+Zeros (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Removes the zeros in front of the \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \begin{DoxyReturn}{Returns}
+The \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} without leading zeros 
+\end{DoxyReturn}
+
+
+Definition at line 647 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a7e47aaceaeacdfa5685158daa230dbfd}\label{class_big_nums_1_1_big_number_a7e47aaceaeacdfa5685158daa230dbfd}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!SetNumber@{SetNumber}}
+\index{SetNumber@{SetNumber}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{SetNumber()}{SetNumber()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} Big\+Nums\+::\+Big\+Number\+::\+Set\+Number (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+new\+Num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Set the value of the current instance with a new value 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+new\+Num} & The new value for the \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} with the new value 
+\end{DoxyReturn}
+
+
+Definition at line 143 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a505eed1769193372c05a1c41ae0e707b}\label{class_big_nums_1_1_big_number_a505eed1769193372c05a1c41ae0e707b}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!Subtract@{Subtract}}
+\index{Subtract@{Subtract}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{Subtract()}{Subtract()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} Big\+Nums\+::\+Big\+Number\+::\+Subtract (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+subtrahend }\end{DoxyParamCaption})}
+
+Subtract another \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} from the current instance 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+subtrahend} & -\/ The \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} subtracted by \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The difference of the two Big\+Numbers 
+\end{DoxyReturn}
+
+
+Definition at line 170 of file Big\+Number.\+cpp.
+
+
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a7311ab2265ec5536725ffdc2dcfb7dcb}\label{class_big_nums_1_1_big_number_a7311ab2265ec5536725ffdc2dcfb7dcb}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator "!=@{operator "!=}}
+\index{operator "!=@{operator "!=}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator "!=}{operator !=}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$typename T , typename U $>$ \\
+bool operator != (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num1,  }\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Not equals operator 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+big\+Num1} & The current instance \\
+\hline
+{\em \+\_\+big\+Num2} & Another number value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if not equal, False if equal 
+\end{DoxyReturn}
+
+
+Definition at line 774 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a06943b4fe9e60b40857108c3d1a40c4b}\label{class_big_nums_1_1_big_number_a06943b4fe9e60b40857108c3d1a40c4b}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator "!=@{operator "!=}}
+\index{operator "!=@{operator "!=}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator "!=}{operator !=}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T , typename U $>$ \\
+bool operator != (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+big\+Num1,  }\item[{const U \&}]{\+\_\+big\+Num2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line 351 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a22a2ab555ef01a5b6cdc31751156e4dd}\label{class_big_nums_1_1_big_number_a22a2ab555ef01a5b6cdc31751156e4dd}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator \%@{operator \%}}
+\index{operator \%@{operator \%}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator \%}{operator \%}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} operator \% (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}}}]{\+\_\+dividend,  }\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+divisor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Mod operator 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+dividend} & The current instance \\
+\hline
+{\em \+\_\+divisor} & The number being divided by \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The remainder of the two Big\+Numbers 
+\end{DoxyReturn}
+
+
+Definition at line 759 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a17162af4b3ce281f1ac33820450986cd}\label{class_big_nums_1_1_big_number_a17162af4b3ce281f1ac33820450986cd}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator \%@{operator \%}}
+\index{operator \%@{operator \%}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator \%}{operator \%}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T , typename U $>$ \\
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} operator \% (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+dividend,  }\item[{const U \&}]{\+\_\+divisor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line 309 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a177683ba51aeb898d01c71f978e7b437}\label{class_big_nums_1_1_big_number_a177683ba51aeb898d01c71f978e7b437}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator \&@{operator \&}}
+\index{operator \&@{operator \&}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator \&}{operator \&}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} operator \& (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num1,  }\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Bitwise A\+ND operator 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+big\+Num1} & The current instance \\
+\hline
+{\em \+\_\+big\+Num2} & Another \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} value of A\+ND operation 
+\end{DoxyReturn}
+
+
+Definition at line 841 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a390a7b0928f684129947af34272b1def}\label{class_big_nums_1_1_big_number_a390a7b0928f684129947af34272b1def}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator $\ast$@{operator $\ast$}}
+\index{operator $\ast$@{operator $\ast$}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator $\ast$}{operator *}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} operator $\ast$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}}}]{\+\_\+multiplicand,  }\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+multiplier }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Multiplication operator 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+multiplicand} & The current instance \\
+\hline
+{\em \+\_\+multiplier} & The number being multiplied by \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The product of the two Big\+Numbers 
+\end{DoxyReturn}
+
+
+Definition at line 749 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_ad33abbbc2055753a8b76762a6d5ef947}\label{class_big_nums_1_1_big_number_ad33abbbc2055753a8b76762a6d5ef947}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator $\ast$@{operator $\ast$}}
+\index{operator $\ast$@{operator $\ast$}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator $\ast$}{operator *}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T , typename U $>$ \\
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} operator $\ast$ (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+multiplicand,  }\item[{const U \&}]{\+\_\+multiplier }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line 275 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a9a4cb9889d9180fb6bc9bfdb1de1e8b9}\label{class_big_nums_1_1_big_number_a9a4cb9889d9180fb6bc9bfdb1de1e8b9}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator -\/@{operator -\/}}
+\index{operator -\/@{operator -\/}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator -\/}{operator -}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} operator -\/ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}}}]{\+\_\+minuend,  }\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+subtrahend }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Subtraction operator 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+minuend} & The current instance \\
+\hline
+{\em \+\_\+subtrahend} & The number being subtracted \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The difference of the two Big\+Numbers 
+\end{DoxyReturn}
+
+
+Definition at line 739 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_abafc9bc65d3cf2b1a87fe226d37b107c}\label{class_big_nums_1_1_big_number_abafc9bc65d3cf2b1a87fe226d37b107c}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator -\/@{operator -\/}}
+\index{operator -\/@{operator -\/}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator -\/}{operator -}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$typename T , typename U $>$ \\
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} operator -\/ (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+minuend,  }\item[{const U \&}]{\+\_\+subtrahend }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line 248 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_aa1017a29d47606c15545ea481c1f5dbf}\label{class_big_nums_1_1_big_number_aa1017a29d47606c15545ea481c1f5dbf}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator -\/@{operator -\/}}
+\index{operator -\/@{operator -\/}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator -\/}{operator -}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} operator -\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Negation operator 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+big\+Num} & The current instance \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The negated value of the number 
+\end{DoxyReturn}
+
+
+Definition at line 744 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a2333d6e7a2438bcea0672fb4dbfc7b91}\label{class_big_nums_1_1_big_number_a2333d6e7a2438bcea0672fb4dbfc7b91}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator $>$@{operator $>$}}
+\index{operator $>$@{operator $>$}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator $>$}{operator >}}
+{\footnotesize\ttfamily template$<$typename T , typename U $>$ \\
+bool operator $>$ (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+big\+Num1,  }\item[{const U \&}]{\+\_\+big\+Num2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line 367 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a7d9aa0ee821fabd568fad397d4274bc8}\label{class_big_nums_1_1_big_number_a7d9aa0ee821fabd568fad397d4274bc8}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator $>$=@{operator $>$=}}
+\index{operator $>$=@{operator $>$=}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator $>$=}{operator >=}}
+{\footnotesize\ttfamily template$<$typename T , typename U $>$ \\
+bool operator $>$= (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+big\+Num1,  }\item[{const U \&}]{\+\_\+big\+Num2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line 399 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a79a63ab9c19b4fc86b225bbaba7435f3}\label{class_big_nums_1_1_big_number_a79a63ab9c19b4fc86b225bbaba7435f3}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator $>$$>$@{operator $>$$>$}}
+\index{operator $>$$>$@{operator $>$$>$}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator $>$$>$}{operator >>}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} operator $>$$>$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num,  }\item[{int}]{num\+Of\+Places }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Bitwise right shift 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+big\+Num} & The current instance \\
+\hline
+{\em num\+Of\+Places} & amount of places to shift \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} value of shifting bits to the right 
+\end{DoxyReturn}
+
+
+Definition at line 942 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a0f9a8bcbc50de75e11d114a8c8629896}\label{class_big_nums_1_1_big_number_a0f9a8bcbc50de75e11d114a8c8629896}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator $^\wedge$@{operator $^\wedge$}}
+\index{operator $^\wedge$@{operator $^\wedge$}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator $^\wedge$}{operator ^}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} operator $^\wedge$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}}}]{\+\_\+base,  }\item[{int}]{\+\_\+power }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Exponent operator 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+base} & The current instance \\
+\hline
+{\em \+\_\+power} & The exponent \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The value calculated raising by exponent 
+\end{DoxyReturn}
+
+
+Definition at line 764 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a2e3512db297a67899d84f57ba0ec31f5}\label{class_big_nums_1_1_big_number_a2e3512db297a67899d84f57ba0ec31f5}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator $^\wedge$@{operator $^\wedge$}}
+\index{operator $^\wedge$@{operator $^\wedge$}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator $^\wedge$}{operator ^}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} operator $^\wedge$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num1,  }\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Bitwise X\+OR operator 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+big\+Num1} & The current instance \\
+\hline
+{\em \+\_\+big\+Num2} & Another \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} value of X\+OR operation 
+\end{DoxyReturn}
+
+
+Definition at line 901 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a09ab9caa6f21204eed61e6e96e9e72cc}\label{class_big_nums_1_1_big_number_a09ab9caa6f21204eed61e6e96e9e72cc}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator $\sim$@{operator $\sim$}}
+\index{operator $\sim$@{operator $\sim$}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator $\sim$}{operator ~}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} operator $\sim$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Bitwise N\+OT operator 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+big\+Num} & The current instance \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} value of inverted bits 
+\end{DoxyReturn}
+
+
+Definition at line 953 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a3d910bc1823b1290f26b1764a93e77ea}\label{class_big_nums_1_1_big_number_a3d910bc1823b1290f26b1764a93e77ea}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator+@{operator+}}
+\index{operator+@{operator+}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator+}{operator+}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} operator+ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}}}]{\+\_\+addend1,  }\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+addend2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Addition operator 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+addend1} & The current instance \\
+\hline
+{\em \+\_\+addend2} & The number being added \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The sum of the two Big\+Numbers 
+\end{DoxyReturn}
+
+
+Definition at line 734 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_ab90a430bf6202a4f133fc915101cd929}\label{class_big_nums_1_1_big_number_ab90a430bf6202a4f133fc915101cd929}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator+@{operator+}}
+\index{operator+@{operator+}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator+}{operator+}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T , typename U $>$ \\
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} operator+ (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+addend1,  }\item[{const U \&}]{\+\_\+addend2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line 230 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a1f3bac79755532f059e42f08126001fe}\label{class_big_nums_1_1_big_number_a1f3bac79755532f059e42f08126001fe}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator/@{operator/}}
+\index{operator/@{operator/}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator/}{operator/}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} operator/ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}}}]{\+\_\+dividend,  }\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+divisor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Division operator 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+dividend} & The current instance \\
+\hline
+{\em \+\_\+divisor} & The number being divided by \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The quotient of the two Big\+Numbers 
+\end{DoxyReturn}
+
+
+Definition at line 754 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a90fc1955ccdc202a1d41857dbe8a81a3}\label{class_big_nums_1_1_big_number_a90fc1955ccdc202a1d41857dbe8a81a3}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator/@{operator/}}
+\index{operator/@{operator/}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator/}{operator/}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T , typename U $>$ \\
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} operator/ (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+dividend,  }\item[{const U \&}]{\+\_\+divisor }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line 291 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a5908b93d7477c482d145b878fa003101}\label{class_big_nums_1_1_big_number_a5908b93d7477c482d145b878fa003101}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator$<$}{operator<}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool operator$<$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num1,  }\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Less than operator 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+big\+Num1} & The current instance \\
+\hline
+{\em \+\_\+big\+Num2} & Another \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if current instance is less, False if not 
+\end{DoxyReturn}
+
+
+Definition at line 826 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a8d081ba4f8cf93e90d74dbe013695b1c}\label{class_big_nums_1_1_big_number_a8d081ba4f8cf93e90d74dbe013695b1c}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator$<$}{operator<}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T , typename U $>$ \\
+bool operator$<$ (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+big\+Num1,  }\item[{const U \&}]{\+\_\+big\+Num2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line 383 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a47e2ad103bf98d5fecb7a0ff01d36e60}\label{class_big_nums_1_1_big_number_a47e2ad103bf98d5fecb7a0ff01d36e60}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator$<$$<$}{operator<<}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{output\+Stream,  }\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Output stream operator 
+\begin{DoxyParams}{Parameters}
+{\em output\+Stream} & The output stream \\
+\hline
+{\em \+\_\+big\+Num} & The current instance \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The output stream with the current instance 
+\end{DoxyReturn}
+
+
+Definition at line 715 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_ab6d6f57915676119fc27d509ffbc7aaa}\label{class_big_nums_1_1_big_number_ab6d6f57915676119fc27d509ffbc7aaa}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator$<$$<$}{operator<<}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} operator$<$$<$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num,  }\item[{int}]{num\+Of\+Places }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Bitwise left shift 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+big\+Num} & The current instance \\
+\hline
+{\em num\+Of\+Places} & amount of places to shift \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} value of shifting bits to the left 
+\end{DoxyReturn}
+
+
+Definition at line 931 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a787ad7c1ee1b244a545034fbe1e09431}\label{class_big_nums_1_1_big_number_a787ad7c1ee1b244a545034fbe1e09431}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator$<$=@{operator$<$=}}
+\index{operator$<$=@{operator$<$=}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator$<$=}{operator<=}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool operator$<$= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num1,  }\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Less than or equal to operator 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+big\+Num1} & The current instance \\
+\hline
+{\em \+\_\+big\+Num2} & Another \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if current instance is less or equal, False if not 
+\end{DoxyReturn}
+
+
+Definition at line 836 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a05bfb6df81cae921364aec33df340215}\label{class_big_nums_1_1_big_number_a05bfb6df81cae921364aec33df340215}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator$<$=@{operator$<$=}}
+\index{operator$<$=@{operator$<$=}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator$<$=}{operator<=}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T , typename U $>$ \\
+bool operator$<$= (\begin{DoxyParamCaption}\item[{T}]{\+\_\+big\+Num1,  }\item[{const U \&}]{\+\_\+big\+Num2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line 415 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a895aa35eca34f84db8c543f23274040a}\label{class_big_nums_1_1_big_number_a895aa35eca34f84db8c543f23274040a}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator==@{operator==}}
+\index{operator==@{operator==}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator==}{operator==}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num1,  }\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Equals operator 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+big\+Num1} & The current instance \\
+\hline
+{\em \+\_\+big\+Num2} & Another number value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if equal, False if not 
+\end{DoxyReturn}
+
+
+Definition at line 769 of file Big\+Number.\+cpp.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_add1b48504a6361ebffcef3c2b9fb5958}\label{class_big_nums_1_1_big_number_add1b48504a6361ebffcef3c2b9fb5958}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator==@{operator==}}
+\index{operator==@{operator==}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator==}{operator==}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$typename T , typename U $>$ \\
+bool operator== (\begin{DoxyParamCaption}\item[{const T \&}]{\+\_\+big\+Num1,  }\item[{const U \&}]{\+\_\+big\+Num2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line 333 of file Big\+Number.\+h.
+
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a73fd242189f8c8439d4f001681d1ae51}\label{class_big_nums_1_1_big_number_a73fd242189f8c8439d4f001681d1ae51}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator$>$}{operator>}}
+{\footnotesize\ttfamily bool operator$>$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num1,  }\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Greater than operator 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+big\+Num1} & The current instance \\
+\hline
+{\em \+\_\+big\+Num2} & Another \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if current instance is greater, False if not 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_aa64caabb2b7a6a9bc6fc28e1abf961e3}\label{class_big_nums_1_1_big_number_aa64caabb2b7a6a9bc6fc28e1abf961e3}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator$>$=@{operator$>$=}}
+\index{operator$>$=@{operator$>$=}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator$>$=}{operator>=}}
+{\footnotesize\ttfamily bool operator$>$= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num1,  }\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Greater than or equal to operator 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+big\+Num1} & The current instance \\
+\hline
+{\em \+\_\+big\+Num2} & Another \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if current instance is greater or equal, False if not 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_adda5cd1a7aca6683ef84866af7e5bd0b}\label{class_big_nums_1_1_big_number_adda5cd1a7aca6683ef84866af7e5bd0b}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator$>$$>$}{operator>>}}
+{\footnotesize\ttfamily std\+::istream\& operator$>$$>$ (\begin{DoxyParamCaption}\item[{std\+::istream \&}]{input\+Stream,  }\item[{\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Input stream operator 
+\begin{DoxyParams}{Parameters}
+{\em input\+Stream} & The input stream \\
+\hline
+{\em \+\_\+big\+Num} & The current instance \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The input stream with the current instance 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_big_nums_1_1_big_number_a20db44e73666375cb56579d951ef87c4}\label{class_big_nums_1_1_big_number_a20db44e73666375cb56579d951ef87c4}} 
+\index{BigNums::BigNumber@{BigNums::BigNumber}!operator\texttt{"|}@{operator\texttt{"|}}}
+\index{operator\texttt{"|}@{operator\texttt{"|}}!BigNums::BigNumber@{BigNums::BigNumber}}
+\subsubsection{\texorpdfstring{operator\texttt{"|}}{operator|}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} operator$\vert$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num1,  }\item[{const \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \&}]{\+\_\+big\+Num2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Bitwise OR operator 
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+big\+Num1} & The current instance \\
+\hline
+{\em \+\_\+big\+Num2} & Another \mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_big_nums_1_1_big_number}{Big\+Number}} value of OR operation 
+\end{DoxyReturn}
+
+
+Definition at line 871 of file Big\+Number.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+headers/\mbox{\hyperlink{_big_number_8h}{Big\+Number.\+h}}\item 
+src/\mbox{\hyperlink{_big_number_8cpp}{Big\+Number.\+cpp}}\end{DoxyCompactItemize}

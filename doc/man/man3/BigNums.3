@@ -1,0 +1,877 @@
+.TH "BigNums" 3 "Tue May 14 2019" "Big Numbers Library" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+BigNums
+.SH SYNOPSIS
+.br
+.PP
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBBigNumber\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "template<typename T , typename U > \fBBigNumber\fP \fBAdd\fP (const T &_addend1, const U &_addend2)"
+.br
+.ti -1c
+.RI "template<typename T , typename U > \fBBigNumber\fP \fBSubtract\fP (const T &_minuend, const U &_subtrahend)"
+.br
+.ti -1c
+.RI "template<typename T , typename U > \fBBigNumber\fP \fBMultiply\fP (const T &_multiplicand, const U &_multiplier)"
+.br
+.ti -1c
+.RI "template<typename T , typename U > \fBBigNumber\fP \fBDivide\fP (const T &_dividend, const U &_divisor)"
+.br
+.ti -1c
+.RI "template<typename T , typename U > \fBBigNumber\fP \fBGetRemainder\fP (const T &_dividend, const U &_divisor)"
+.br
+.ti -1c
+.RI "template<typename T , typename U > \fBBigNumber\fP \fBIncrement\fP (\fBBigNumber\fP &_bigNum, const U &_amount)"
+.br
+.ti -1c
+.RI "template<typename T , typename U > \fBBigNumber\fP \fBDecrement\fP (T &_bigNum, const U &_amount)"
+.br
+.ti -1c
+.RI "template<typename T , typename U > \fBBigNumber\fP \fBMax\fP (const T &_bigNum1, const U &_bigNum2)"
+.br
+.ti -1c
+.RI "template<typename T , typename U > \fBBigNumber\fP \fBMin\fP (const T &_bigNum1, const U &_bigNum2)"
+.br
+.ti -1c
+.RI "template<typename T > \fBBigNumber\fP \fBAbs\fP (const T &_bigNum)"
+.br
+.ti -1c
+.RI "template<typename T , typename U , typename V > \fBBigNumber\fP \fBMultAdd\fP (const T &_bigNum1, const U &_bigNum2, const V &_bigNum3)"
+.br
+.ti -1c
+.RI "template<typename T , typename U > \fBBigNumber\fP \fBDifference\fP (const T &_bigNum1, const U &_bigNum2)"
+.br
+.ti -1c
+.RI "template<typename T > bool \fBIsNumber\fP (const T &_bigNumber)"
+.br
+.ti -1c
+.RI "template<typename T > bool \fBIsBigNumber\fP (const T &_number)"
+.br
+.ti -1c
+.RI "template<typename T > bool \fBIsNegative\fP (const T &_bigNumber)"
+.br
+.ti -1c
+.RI "template<typename T > bool \fBIsPositive\fP (const T &_bigNumber)"
+.br
+.ti -1c
+.RI "\fBBigNumber\fP \fBConvertBinaryValue\fP (const \fBBigNumber\fP &_binaryNum)"
+.br
+.ti -1c
+.RI "std::ostream & \fBoperator<<\fP (std::ostream &outputStream, const \fBBigNumber\fP &_bigNum)"
+.br
+.ti -1c
+.RI "std::istream & \fBoperator >>\fP (std::istream &inputStream, \fBBigNumber\fP &_bigNum)"
+.br
+.ti -1c
+.RI "\fBBigNumber\fP \fBoperator+\fP (\fBBigNumber\fP _addend1, const \fBBigNumber\fP &_addend2)"
+.br
+.ti -1c
+.RI "\fBBigNumber\fP \fBoperator \-\fP (\fBBigNumber\fP _minuend, const \fBBigNumber\fP &_subtrahend)"
+.br
+.ti -1c
+.RI "\fBBigNumber\fP \fBoperator \-\fP (const \fBBigNumber\fP &_bigNum)"
+.br
+.ti -1c
+.RI "\fBBigNumber\fP \fBoperator *\fP (\fBBigNumber\fP _multiplicand, const \fBBigNumber\fP &_multiplier)"
+.br
+.ti -1c
+.RI "\fBBigNumber\fP \fBoperator/\fP (\fBBigNumber\fP _dividend, const \fBBigNumber\fP &_divisor)"
+.br
+.ti -1c
+.RI "\fBBigNumber\fP \fBoperator %\fP (\fBBigNumber\fP _dividend, const \fBBigNumber\fP &_divisor)"
+.br
+.ti -1c
+.RI "\fBBigNumber\fP \fBoperator ^\fP (\fBBigNumber\fP _base, int _power)"
+.br
+.ti -1c
+.RI "bool \fBoperator==\fP (const \fBBigNumber\fP &_bigNum1, const \fBBigNumber\fP &_bigNum2)"
+.br
+.ti -1c
+.RI "bool \fBoperator !=\fP (const \fBBigNumber\fP &_bigNum1, const \fBBigNumber\fP &_bigNum2)"
+.br
+.ti -1c
+.RI "bool \fBoperator >\fP (const \fBBigNumber\fP &_bigNum1, const \fBBigNumber\fP &_bigNum2)"
+.br
+.ti -1c
+.RI "bool \fBoperator<\fP (const \fBBigNumber\fP &_bigNum1, const \fBBigNumber\fP &_bigNum2)"
+.br
+.ti -1c
+.RI "bool \fBoperator >=\fP (const \fBBigNumber\fP &_bigNum1, const \fBBigNumber\fP &_bigNum2)"
+.br
+.ti -1c
+.RI "bool \fBoperator<=\fP (const \fBBigNumber\fP &_bigNum1, const \fBBigNumber\fP &_bigNum2)"
+.br
+.ti -1c
+.RI "\fBBigNumber\fP \fBoperator &\fP (const \fBBigNumber\fP &_bigNum1, const \fBBigNumber\fP &_bigNum2)"
+.br
+.ti -1c
+.RI "\fBBigNumber\fP \fBoperator|\fP (const \fBBigNumber\fP &_bigNum1, const \fBBigNumber\fP &_bigNum2)"
+.br
+.ti -1c
+.RI "\fBBigNumber\fP \fBoperator ^\fP (const \fBBigNumber\fP &_bigNum1, const \fBBigNumber\fP &_bigNum2)"
+.br
+.ti -1c
+.RI "\fBBigNumber\fP \fBoperator<<\fP (const \fBBigNumber\fP &_bigNum, int numOfPlaces)"
+.br
+.ti -1c
+.RI "\fBBigNumber\fP \fBoperator >>\fP (const \fBBigNumber\fP &_bigNum, int numOfPlaces)"
+.br
+.ti -1c
+.RI "\fBBigNumber\fP \fBoperator ~\fP (const \fBBigNumber\fP &_bigNum)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBBigNums\fP namspace
+.br
+Namspace in which the \fBBigNumber\fP class and
+.br
+library functions are contained 
+.SH "Function Documentation"
+.PP 
+.SS "template<typename T > \fBBigNumber\fP BigNums::Abs (const T & _bigNum)"
+Returns the absolute value of _bigNum 
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fIT\fP Data type of_bigNum 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_bigNum\fP Initial value 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The absolute value as a \fBBigNumber\fP 
+.RE
+.PP
+
+.PP
+Definition at line 784 of file BigNumber\&.h\&.
+.SS "template<typename T , typename U > \fBBigNumber\fP BigNums::Add (const T & _addend1, const U & _addend2)"
+Takes two values and returns the sum 
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fIT\fP Data type of _addend1 
+.br
+\fIU\fP Data type of _addend2 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_addend1\fP Value being added 
+.br
+\fI_addend2\fP Value to add by 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Sum of values as a \fBBigNumber\fP 
+.RE
+.PP
+
+.PP
+Definition at line 658 of file BigNumber\&.h\&.
+.SS "\fBBigNumber\fP BigNums::ConvertBinaryValue (const \fBBigNumber\fP & _binaryNum)"
+Calculates Decimal representation of _binaryNumber 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_binaryNum\fP Bits representing a \fBBigNumber\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Decimal value of bits as a \fBBigNumber\fP 
+.RE
+.PP
+
+.PP
+Definition at line 1029 of file BigNumber\&.cpp\&.
+.SS "template<typename T , typename U > \fBBigNumber\fP BigNums::Decrement (T & _bigNum, const U & _amount)"
+Decrements _bigNum by _amount 
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fIT\fP Data type of _bigNum 
+.br
+\fIU\fP Data type of _amount 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_bigNum\fP Initial \fBBigNumber\fP 
+.br
+\fI_amount\fP Value to decrement by 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The new decremented \fBBigNumber\fP 
+.RE
+.PP
+
+.PP
+Definition at line 743 of file BigNumber\&.h\&.
+.SS "template<typename T , typename U > \fBBigNumber\fP BigNums::Difference (const T & _bigNum1, const U & _bigNum2)"
+Takes two values and computes their difference 
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fIT\fP Data type of _bigNum1 
+.br
+\fIU\fP Data type of _bigNum2 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_bigNum1\fP First value 
+.br
+\fI_bigNum2\fP Second Value 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Absolute value of difference as a \fBBigNumber\fP 
+.RE
+.PP
+
+.PP
+Definition at line 814 of file BigNumber\&.h\&.
+.SS "template<typename T , typename U > \fBBigNumber\fP BigNums::Divide (const T & _dividend, const U & _divisor)"
+Takes two values and returns the quotient 
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fIT\fP Data type of _dividend 
+.br
+\fIU\fP Data type of _divisor 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_dividend\fP Value being divided 
+.br
+\fI_divisor\fP Value to divide by 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Quotient of values as a \fBBigNumber\fP 
+.RE
+.PP
+
+.PP
+Definition at line 700 of file BigNumber\&.h\&.
+.SS "template<typename T , typename U > \fBBigNumber\fP BigNums::GetRemainder (const T & _dividend, const U & _divisor)"
+Takes two values and returns the remainder 
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fIT\fP Data type of _dividend 
+.br
+\fIU\fP Data type of _divisor 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_dividend\fP Value being added 
+.br
+\fI_divisor\fP Value to divide by 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Remainder of values as a \fBBigNumber\fP 
+.RE
+.PP
+
+.PP
+Definition at line 714 of file BigNumber\&.h\&.
+.SS "template<typename T , typename U > \fBBigNumber\fP BigNums::Increment (\fBBigNumber\fP & _bigNum, const U & _amount)"
+Increments _bigNum by _amount 
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fIT\fP Data type of _bigNum 
+.br
+\fIU\fP Data type of _amount 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_bigNum\fP Initial \fBBigNumber\fP 
+.br
+\fI_amount\fP Value to increment by 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The new incremented \fBBigNumber\fP 
+.RE
+.PP
+
+.PP
+Definition at line 728 of file BigNumber\&.h\&.
+.SS "template<typename T > bool BigNums::IsBigNumber (const T & _number)"
+Returns if _number is of \fBBigNumber\fP type 
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fIT\fP Data type of _number 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_number\fP Initial number 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+True if _number is a \fBBigNumber\fP, False if not 
+.RE
+.PP
+
+.PP
+Definition at line 854 of file BigNumber\&.h\&.
+.SS "template<typename T > bool BigNums::IsNegative (const T & _bigNumber)"
+Returns if _bigNumber is negative 
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fIT\fP Datatype of _bigNumber 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_bigNumber\fP Number being checked 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+True if negative, False if positive 
+.RE
+.PP
+
+.PP
+Definition at line 866 of file BigNumber\&.h\&.
+.SS "template<typename T > bool BigNums::IsNumber (const T & _bigNumber)"
+Returns if value is a valid number 
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fIT\fP Data type of \fBBigNumber\fP 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_bigNumber\fP Initial value 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+True if value is a valid number, False if not 
+.RE
+.PP
+
+.PP
+Definition at line 826 of file BigNumber\&.h\&.
+.SS "template<typename T > bool BigNums::IsPositive (const T & _bigNumber)"
+Returns if _bigNumber is positive 
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fIT\fP Datatype of _bigNumber 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_bigNumber\fP Number being checked 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+True if positive, False if negitive 
+.RE
+.PP
+
+.PP
+Definition at line 878 of file BigNumber\&.h\&.
+.SS "template<typename T , typename U > \fBBigNumber\fP BigNums::Max (const T & _bigNum1, const U & _bigNum2)"
+Takes two values and returns the larger value 
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fIT\fP Data type of _bigNum1 
+.br
+\fIU\fP Data type of _bigNum2 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_bigNum1\fP First value compared 
+.br
+\fI_bigNum2\fP Second value compared 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The larger value as a \fBBigNumber\fP 
+.RE
+.PP
+
+.PP
+Definition at line 758 of file BigNumber\&.h\&.
+.SS "template<typename T , typename U > \fBBigNumber\fP BigNums::Min (const T & _bigNum1, const U & _bigNum2)"
+Takes two values and returns the smaller value 
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fIT\fP Data type of_bigNum1 
+.br
+\fIU\fP Data type of _bigNum2 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_bigNum1\fP First value compared 
+.br
+\fI_bigNum2\fP Second value compared 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The smaller value as a \fBBigNumber\fP 
+.RE
+.PP
+
+.PP
+Definition at line 772 of file BigNumber\&.h\&.
+.SS "template<typename T , typename U , typename V > \fBBigNumber\fP BigNums::MultAdd (const T & _bigNum1, const U & _bigNum2, const V & _bigNum3)"
+Computes the sum of _bigNum3 and the product of the _bigNum1 and _bigNum2 
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fIT\fP Data type of _bigNum1 
+.br
+\fIU\fP Data type of _bigNum2 
+.br
+\fIV\fP Data type of _bigNum3 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_bigNum1\fP First value being added 
+.br
+\fI_bigNum2\fP Second value being added 
+.br
+\fI_bigNum3\fP Value to add by 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The calculation results as a \fBBigNumber\fP 
+.RE
+.PP
+
+.PP
+Definition at line 800 of file BigNumber\&.h\&.
+.SS "template<typename T , typename U > \fBBigNumber\fP BigNums::Multiply (const T & _multiplicand, const U & _multiplier)"
+Takes two values and returns the product 
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fIT\fP Data type of _multiplicand 
+.br
+\fIU\fP Data type of _multiplier 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_multiplicand\fP Value being multiplied 
+.br
+\fI_multiplier\fP Value to multiply by 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Product of values as a \fBBigNumber\fP 
+.RE
+.PP
+
+.PP
+Definition at line 686 of file BigNumber\&.h\&.
+.SS "bool BigNums::operator != (const \fBBigNumber\fP & _bigNum1, const \fBBigNumber\fP & _bigNum2)"
+Not equals operator 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_bigNum1\fP The current instance 
+.br
+\fI_bigNum2\fP Another number value 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+True if not equal, False if equal 
+.RE
+.PP
+
+.PP
+Definition at line 774 of file BigNumber\&.cpp\&.
+.SS "\fBBigNumber\fP BigNums::operator % (\fBBigNumber\fP _dividend, const \fBBigNumber\fP & _divisor)"
+Mod operator 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_dividend\fP The current instance 
+.br
+\fI_divisor\fP The number being divided by 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The remainder of the two BigNumbers 
+.RE
+.PP
+
+.PP
+Definition at line 759 of file BigNumber\&.cpp\&.
+.SS "\fBBigNumber\fP BigNums::operator & (const \fBBigNumber\fP & _bigNum1, const \fBBigNumber\fP & _bigNum2)"
+Bitwise AND operator 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_bigNum1\fP The current instance 
+.br
+\fI_bigNum2\fP Another \fBBigNumber\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fBBigNumber\fP value of AND operation 
+.RE
+.PP
+
+.PP
+Definition at line 841 of file BigNumber\&.cpp\&.
+.SS "\fBBigNumber\fP BigNums::operator * (\fBBigNumber\fP _multiplicand, const \fBBigNumber\fP & _multiplier)"
+Multiplication operator 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_multiplicand\fP The current instance 
+.br
+\fI_multiplier\fP The number being multiplied by 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The product of the two BigNumbers 
+.RE
+.PP
+
+.PP
+Definition at line 749 of file BigNumber\&.cpp\&.
+.SS "\fBBigNumber\fP BigNums::operator \- (\fBBigNumber\fP _minuend, const \fBBigNumber\fP & _subtrahend)"
+Subtraction operator 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_minuend\fP The current instance 
+.br
+\fI_subtrahend\fP The number being subtracted 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The difference of the two BigNumbers 
+.RE
+.PP
+
+.PP
+Definition at line 739 of file BigNumber\&.cpp\&.
+.SS "\fBBigNumber\fP BigNums::operator \- (const \fBBigNumber\fP & _bigNum)"
+Negation operator 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_bigNum\fP The current instance 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The negated value of the number 
+.RE
+.PP
+
+.PP
+Definition at line 744 of file BigNumber\&.cpp\&.
+.SS "bool BigNums::operator > (const \fBBigNumber\fP & _bigNum1, const \fBBigNumber\fP & _bigNum2)"
+
+.PP
+Definition at line 779 of file BigNumber\&.cpp\&.
+.SS "bool BigNums::operator >= (const \fBBigNumber\fP & _bigNum1, const \fBBigNumber\fP & _bigNum2)"
+
+.PP
+Definition at line 831 of file BigNumber\&.cpp\&.
+.SS "std::istream& BigNums::operator >> (std::istream & inputStream, \fBBigNumber\fP & _bigNum)"
+
+.PP
+Definition at line 725 of file BigNumber\&.cpp\&.
+.SS "\fBBigNumber\fP BigNums::operator >> (const \fBBigNumber\fP & _bigNum, int numOfPlaces)"
+Bitwise right shift 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_bigNum\fP The current instance 
+.br
+\fInumOfPlaces\fP amount of places to shift 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fBBigNumber\fP value of shifting bits to the right 
+.RE
+.PP
+
+.PP
+Definition at line 942 of file BigNumber\&.cpp\&.
+.SS "\fBBigNumber\fP BigNums::operator ^ (\fBBigNumber\fP _base, int _power)"
+Exponent operator 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_base\fP The current instance 
+.br
+\fI_power\fP The exponent 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The value calculated raising by exponent 
+.RE
+.PP
+
+.PP
+Definition at line 764 of file BigNumber\&.cpp\&.
+.SS "\fBBigNumber\fP BigNums::operator ^ (const \fBBigNumber\fP & _bigNum1, const \fBBigNumber\fP & _bigNum2)"
+Bitwise XOR operator 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_bigNum1\fP The current instance 
+.br
+\fI_bigNum2\fP Another \fBBigNumber\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fBBigNumber\fP value of XOR operation 
+.RE
+.PP
+
+.PP
+Definition at line 901 of file BigNumber\&.cpp\&.
+.SS "\fBBigNumber\fP BigNums::operator ~ (const \fBBigNumber\fP & _bigNum)"
+Bitwise NOT operator 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_bigNum\fP The current instance 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fBBigNumber\fP value of inverted bits 
+.RE
+.PP
+
+.PP
+Definition at line 953 of file BigNumber\&.cpp\&.
+.SS "\fBBigNumber\fP BigNums::operator+ (\fBBigNumber\fP _addend1, const \fBBigNumber\fP & _addend2)"
+Addition operator 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_addend1\fP The current instance 
+.br
+\fI_addend2\fP The number being added 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The sum of the two BigNumbers 
+.RE
+.PP
+
+.PP
+Definition at line 734 of file BigNumber\&.cpp\&.
+.SS "\fBBigNumber\fP BigNums::operator/ (\fBBigNumber\fP _dividend, const \fBBigNumber\fP & _divisor)"
+Division operator 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_dividend\fP The current instance 
+.br
+\fI_divisor\fP The number being divided by 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The quotient of the two BigNumbers 
+.RE
+.PP
+
+.PP
+Definition at line 754 of file BigNumber\&.cpp\&.
+.SS "bool BigNums::operator< (const \fBBigNumber\fP & _bigNum1, const \fBBigNumber\fP & _bigNum2)"
+Less than operator 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_bigNum1\fP The current instance 
+.br
+\fI_bigNum2\fP Another \fBBigNumber\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+True if current instance is less, False if not 
+.RE
+.PP
+
+.PP
+Definition at line 826 of file BigNumber\&.cpp\&.
+.SS "std::ostream& BigNums::operator<< (std::ostream & outputStream, const \fBBigNumber\fP & _bigNum)"
+Output stream operator 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIoutputStream\fP The output stream 
+.br
+\fI_bigNum\fP The current instance 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The output stream with the current instance 
+.RE
+.PP
+
+.PP
+Definition at line 715 of file BigNumber\&.cpp\&.
+.SS "\fBBigNumber\fP BigNums::operator<< (const \fBBigNumber\fP & _bigNum, int numOfPlaces)"
+Bitwise left shift 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_bigNum\fP The current instance 
+.br
+\fInumOfPlaces\fP amount of places to shift 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fBBigNumber\fP value of shifting bits to the left 
+.RE
+.PP
+
+.PP
+Definition at line 931 of file BigNumber\&.cpp\&.
+.SS "bool BigNums::operator<= (const \fBBigNumber\fP & _bigNum1, const \fBBigNumber\fP & _bigNum2)"
+Less than or equal to operator 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_bigNum1\fP The current instance 
+.br
+\fI_bigNum2\fP Another \fBBigNumber\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+True if current instance is less or equal, False if not 
+.RE
+.PP
+
+.PP
+Definition at line 836 of file BigNumber\&.cpp\&.
+.SS "bool BigNums::operator== (const \fBBigNumber\fP & _bigNum1, const \fBBigNumber\fP & _bigNum2)"
+Equals operator 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_bigNum1\fP The current instance 
+.br
+\fI_bigNum2\fP Another number value 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+True if equal, False if not 
+.RE
+.PP
+
+.PP
+Definition at line 769 of file BigNumber\&.cpp\&.
+.SS "\fBBigNumber\fP BigNums::operator| (const \fBBigNumber\fP & _bigNum1, const \fBBigNumber\fP & _bigNum2)"
+Bitwise OR operator 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_bigNum1\fP The current instance 
+.br
+\fI_bigNum2\fP Another \fBBigNumber\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fBBigNumber\fP value of OR operation 
+.RE
+.PP
+
+.PP
+Definition at line 871 of file BigNumber\&.cpp\&.
+.SS "template<typename T , typename U > \fBBigNumber\fP BigNums::Subtract (const T & _minuend, const U & _subtrahend)"
+Takes two values and returns the difference 
+.PP
+\fBTemplate Parameters:\fP
+.RS 4
+\fIT\fP Data type of _minuend 
+.br
+\fIU\fP Data type of _subtrahend 
+.RE
+.PP
+\fBParameters:\fP
+.RS 4
+\fI_minuend\fP Value being subtracted 
+.br
+\fI_subtrahend\fP Value to subtract by 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+Difference of values as a \fBBigNumber\fP 
+.RE
+.PP
+
+.PP
+Definition at line 672 of file BigNumber\&.h\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Big Numbers Library from the source code\&.

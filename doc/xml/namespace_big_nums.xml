@@ -1,0 +1,1787 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="namespace_big_nums" kind="namespace" language="C++">
+    <compoundname>BigNums</compoundname>
+    <innerclass refid="class_big_nums_1_1_big_number" prot="public">BigNums::BigNumber</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_big_nums_1aa720921bc4bb5c07e5eaaa94ea2fbdd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::Add</definition>
+        <argsstring>(const T &amp;_addend1, const U &amp;_addend2)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_addend1</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_addend2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Takes two values and returns the sum <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _addend1 </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>U</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _addend2 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_addend1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value being added </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_addend2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value to add by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Sum of values as a <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="658" column="1" bodyfile="headers/BigNumber.h" bodystart="658" bodyend="661"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1af7374fc61c13d901a5544cf75f9aa607" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::Subtract</definition>
+        <argsstring>(const T &amp;_minuend, const U &amp;_subtrahend)</argsstring>
+        <name>Subtract</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_minuend</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_subtrahend</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Takes two values and returns the difference <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _minuend </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>U</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _subtrahend </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_minuend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value being subtracted </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_subtrahend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value to subtract by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Difference of values as a <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="672" column="1" bodyfile="headers/BigNumber.h" bodystart="672" bodyend="675"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a0fd0171f6ec3841100d2aac76a1ad3b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::Multiply</definition>
+        <argsstring>(const T &amp;_multiplicand, const U &amp;_multiplier)</argsstring>
+        <name>Multiply</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_multiplicand</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_multiplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Takes two values and returns the product <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _multiplicand </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>U</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _multiplier </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_multiplicand</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value being multiplied </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_multiplier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value to multiply by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Product of values as a <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="686" column="1" bodyfile="headers/BigNumber.h" bodystart="686" bodyend="689"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a5509ae7c6fe5bd643f0b70813af082e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::Divide</definition>
+        <argsstring>(const T &amp;_dividend, const U &amp;_divisor)</argsstring>
+        <name>Divide</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_dividend</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_divisor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Takes two values and returns the quotient <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _dividend </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>U</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _divisor </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_dividend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value being divided </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_divisor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value to divide by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Quotient of values as a <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="700" column="1" bodyfile="headers/BigNumber.h" bodystart="700" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a61b932319b89265b00a55e8dcce77b0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::GetRemainder</definition>
+        <argsstring>(const T &amp;_dividend, const U &amp;_divisor)</argsstring>
+        <name>GetRemainder</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_dividend</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_divisor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Takes two values and returns the remainder <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _dividend </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>U</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _divisor </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_dividend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value being added </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_divisor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value to divide by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Remainder of values as a <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="714" column="1" bodyfile="headers/BigNumber.h" bodystart="714" bodyend="717"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1ab73d728e998902ee2db1af69619b7573" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::Increment</definition>
+        <argsstring>(BigNumber &amp;_bigNum, const U &amp;_amount)</argsstring>
+        <name>Increment</name>
+        <param>
+          <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_amount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Increments _bigNum by _amount <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _bigNum </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>U</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _amount </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Initial <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_amount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value to increment by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new incremented <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="728" column="1" bodyfile="headers/BigNumber.h" bodystart="728" bodyend="732"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a5ade9d910a990dfe7a21a3015d2a523a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::Decrement</definition>
+        <argsstring>(T &amp;_bigNum, const U &amp;_amount)</argsstring>
+        <name>Decrement</name>
+        <param>
+          <type>T &amp;</type>
+          <declname>_bigNum</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_amount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Decrements _bigNum by _amount <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _bigNum </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>U</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _amount </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Initial <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_amount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value to decrement by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The new decremented <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="743" column="1" bodyfile="headers/BigNumber.h" bodystart="743" bodyend="747"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a6ae2ed93d9956ac117c4fc399b72aee7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::Max</definition>
+        <argsstring>(const T &amp;_bigNum1, const U &amp;_bigNum2)</argsstring>
+        <name>Max</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Takes two values and returns the larger value <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _bigNum1 </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>U</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _bigNum2 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>First value compared </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Second value compared </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The larger value as a <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="758" column="1" bodyfile="headers/BigNumber.h" bodystart="758" bodyend="761"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a75b2a2bd89326e34387f3465ea9735b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::Min</definition>
+        <argsstring>(const T &amp;_bigNum1, const U &amp;_bigNum2)</argsstring>
+        <name>Min</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Takes two values and returns the smaller value <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of_bigNum1 </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>U</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _bigNum2 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>First value compared </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Second value compared </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The smaller value as a <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="772" column="1" bodyfile="headers/BigNumber.h" bodystart="772" bodyend="775"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a18e6e5d50d69125d22b2d4510354de2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::Abs</definition>
+        <argsstring>(const T &amp;_bigNum)</argsstring>
+        <name>Abs</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_bigNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the absolute value of _bigNum <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of_bigNum </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Initial value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The absolute value as a <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="784" column="1" bodyfile="headers/BigNumber.h" bodystart="784" bodyend="787"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a673780802e05413ca959d9ef903a0b0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+          <param>
+            <type>typename V</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::MultAdd</definition>
+        <argsstring>(const T &amp;_bigNum1, const U &amp;_bigNum2, const V &amp;_bigNum3)</argsstring>
+        <name>MultAdd</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <param>
+          <type>const V &amp;</type>
+          <declname>_bigNum3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the sum of _bigNum3 and the product of the _bigNum1 and _bigNum2 <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _bigNum1 </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>U</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _bigNum2 </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>V</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _bigNum3 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>First value being added </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Second value being added </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum3</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Value to add by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The calculation results as a <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="800" column="1" bodyfile="headers/BigNumber.h" bodystart="800" bodyend="803"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a60e4463715275849b533433223e2ee07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::Difference</definition>
+        <argsstring>(const T &amp;_bigNum1, const U &amp;_bigNum2)</argsstring>
+        <name>Difference</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const U &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Takes two values and computes their difference <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _bigNum1 </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>U</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _bigNum2 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>First value </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Second Value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Absolute value of difference as a <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="814" column="1" bodyfile="headers/BigNumber.h" bodystart="814" bodyend="817"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a3353e9045574582f6c7b5f243f700716" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool BigNums::IsNumber</definition>
+        <argsstring>(const T &amp;_bigNumber)</argsstring>
+        <name>IsNumber</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_bigNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns if value is a valid number <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Initial value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if value is a valid number, False if not </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="826" column="1" bodyfile="headers/BigNumber.h" bodystart="826" bodyend="845"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a66d44277d6d6e0ff43c9e00ee79e0c86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool BigNums::IsBigNumber</definition>
+        <argsstring>(const T &amp;_number)</argsstring>
+        <name>IsBigNumber</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns if _number is of <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> type <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data type of _number </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_number</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Initial number </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if _number is a <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref>, False if not </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="854" column="1" bodyfile="headers/BigNumber.h" bodystart="854" bodyend="857"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1aea836101e2c13e62da1ac27d7b6c77d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool BigNums::IsNegative</definition>
+        <argsstring>(const T &amp;_bigNumber)</argsstring>
+        <name>IsNegative</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_bigNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns if _bigNumber is negative <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datatype of _bigNumber </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number being checked </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if negative, False if positive </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="866" column="1" bodyfile="headers/BigNumber.h" bodystart="866" bodyend="869"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1ad10e532cfb62a71e7c6b68f5941362d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool BigNums::IsPositive</definition>
+        <argsstring>(const T &amp;_bigNumber)</argsstring>
+        <name>IsPositive</name>
+        <param>
+          <type>const T &amp;</type>
+          <declname>_bigNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns if _bigNumber is positive <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Datatype of _bigNumber </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Number being checked </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if positive, False if negitive </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="878" column="1" bodyfile="headers/BigNumber.h" bodystart="878" bodyend="881"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1ad3c1a55de2f548036c5f3888c2b4061d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::ConvertBinaryValue</definition>
+        <argsstring>(const BigNumber &amp;_binaryNum)</argsstring>
+        <name>ConvertBinaryValue</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_binaryNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calculates Decimal representation of _binaryNumber <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_binaryNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Bits representing a <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Decimal value of bits as a <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="headers/BigNumber.h" line="888" column="1" bodyfile="src/BigNumber.cpp" bodystart="1029" bodyend="1046"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1aa974f80c6eaffabdcb244efbfc8ef40f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; BigNums::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;outputStream, const BigNumber &amp;_bigNum)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>outputStream</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Output stream operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>outputStream</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The output stream </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The output stream with the current instance </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BigNumber.cpp" line="715" column="1" bodyfile="src/BigNumber.cpp" bodystart="715" bodyend="723"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a842a1460ed950581d97b842d8fb42910" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::istream &amp;</type>
+        <definition>std::istream&amp; BigNums::operator &gt;&gt;</definition>
+        <argsstring>(std::istream &amp;inputStream, BigNumber &amp;_bigNum)</argsstring>
+        <name>operator &gt;&gt;</name>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>inputStream</declname>
+        </param>
+        <param>
+          <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BigNumber.cpp" line="725" column="1" bodyfile="src/BigNumber.cpp" bodystart="725" bodyend="732"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a43db6cb13170c6129a77c057ef76017e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::operator+</definition>
+        <argsstring>(BigNumber _addend1, const BigNumber &amp;_addend2)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+          <declname>_addend1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_addend2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Addition operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_addend1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_addend2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number being added </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The sum of the two BigNumbers </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BigNumber.cpp" line="734" column="1" bodyfile="src/BigNumber.cpp" bodystart="734" bodyend="737"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a45951a2fb9f239876c94c8917b4d7ad1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::operator -</definition>
+        <argsstring>(BigNumber _minuend, const BigNumber &amp;_subtrahend)</argsstring>
+        <name>operator -</name>
+        <param>
+          <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+          <declname>_minuend</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_subtrahend</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Subtraction operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_minuend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_subtrahend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number being subtracted </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The difference of the two BigNumbers </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BigNumber.cpp" line="739" column="1" bodyfile="src/BigNumber.cpp" bodystart="739" bodyend="742"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1afc1c2c149134a0b2a64347c14d96946d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::operator -</definition>
+        <argsstring>(const BigNumber &amp;_bigNum)</argsstring>
+        <name>operator -</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Negation operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The negated value of the number </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BigNumber.cpp" line="744" column="1" bodyfile="src/BigNumber.cpp" bodystart="744" bodyend="747"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a04ca82b2b679febecf3ac11a4fd58db1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::operator *</definition>
+        <argsstring>(BigNumber _multiplicand, const BigNumber &amp;_multiplier)</argsstring>
+        <name>operator *</name>
+        <param>
+          <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+          <declname>_multiplicand</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_multiplier</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Multiplication operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_multiplicand</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_multiplier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number being multiplied by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The product of the two BigNumbers </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BigNumber.cpp" line="749" column="1" bodyfile="src/BigNumber.cpp" bodystart="749" bodyend="752"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a5f3c743438ecf988d979eceb658f9cf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::operator/</definition>
+        <argsstring>(BigNumber _dividend, const BigNumber &amp;_divisor)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+          <declname>_dividend</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_divisor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Division operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_dividend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_divisor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number being divided by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The quotient of the two BigNumbers </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BigNumber.cpp" line="754" column="1" bodyfile="src/BigNumber.cpp" bodystart="754" bodyend="757"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1ae7b3fba15d931353b415566997ad2bd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::operator %</definition>
+        <argsstring>(BigNumber _dividend, const BigNumber &amp;_divisor)</argsstring>
+        <name>operator %</name>
+        <param>
+          <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+          <declname>_dividend</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_divisor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mod operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_dividend</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_divisor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number being divided by </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The remainder of the two BigNumbers </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BigNumber.cpp" line="759" column="1" bodyfile="src/BigNumber.cpp" bodystart="759" bodyend="762"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a26f4f7080ee4ac682138c92ad0ce7f75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::operator ^</definition>
+        <argsstring>(BigNumber _base, int _power)</argsstring>
+        <name>operator ^</name>
+        <param>
+          <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+          <declname>_base</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>_power</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Exponent operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_base</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_power</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The exponent </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The value calculated raising by exponent </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BigNumber.cpp" line="764" column="1" bodyfile="src/BigNumber.cpp" bodystart="764" bodyend="767"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a850a2334f2158f7bbe71d1c6e9fad531" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BigNums::operator==</definition>
+        <argsstring>(const BigNumber &amp;_bigNum1, const BigNumber &amp;_bigNum2)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Equals operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Another number value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if equal, False if not </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BigNumber.cpp" line="769" column="1" bodyfile="src/BigNumber.cpp" bodystart="769" bodyend="772"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a4b4f66727acdbc37dadbf1da8170b088" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BigNums::operator !=</definition>
+        <argsstring>(const BigNumber &amp;_bigNum1, const BigNumber &amp;_bigNum2)</argsstring>
+        <name>operator !=</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Not equals operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Another number value </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if not equal, False if equal </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BigNumber.cpp" line="774" column="1" bodyfile="src/BigNumber.cpp" bodystart="774" bodyend="777"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a8da493ab5dba979579d6ceeec7b1ac14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BigNums::operator &gt;</definition>
+        <argsstring>(const BigNumber &amp;_bigNum1, const BigNumber &amp;_bigNum2)</argsstring>
+        <name>operator &gt;</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BigNumber.cpp" line="779" column="1" bodyfile="src/BigNumber.cpp" bodystart="779" bodyend="824"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a3d130669f3794613ae13100178f0758c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BigNums::operator&lt;</definition>
+        <argsstring>(const BigNumber &amp;_bigNum1, const BigNumber &amp;_bigNum2)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Less than operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Another <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if current instance is less, False if not </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BigNumber.cpp" line="826" column="1" bodyfile="src/BigNumber.cpp" bodystart="826" bodyend="829"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1afde1be123ae1b999f1913f801d6aa286" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BigNums::operator &gt;=</definition>
+        <argsstring>(const BigNumber &amp;_bigNum1, const BigNumber &amp;_bigNum2)</argsstring>
+        <name>operator &gt;=</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BigNumber.cpp" line="831" column="1" bodyfile="src/BigNumber.cpp" bodystart="831" bodyend="834"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a60e44068f20ee7b59d24f7147282eb2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool BigNums::operator&lt;=</definition>
+        <argsstring>(const BigNumber &amp;_bigNum1, const BigNumber &amp;_bigNum2)</argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Less than or equal to operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Another <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if current instance is less or equal, False if not </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BigNumber.cpp" line="836" column="1" bodyfile="src/BigNumber.cpp" bodystart="836" bodyend="839"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1ab5839eac3b74ef69240811d21f09377c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::operator &amp;</definition>
+        <argsstring>(const BigNumber &amp;_bigNum1, const BigNumber &amp;_bigNum2)</argsstring>
+        <name>operator &amp;</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bitwise AND operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Another <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> value of AND operation </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BigNumber.cpp" line="841" column="1" bodyfile="src/BigNumber.cpp" bodystart="841" bodyend="869"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a3885538e918c8cb0cd96433da09462f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::operator|</definition>
+        <argsstring>(const BigNumber &amp;_bigNum1, const BigNumber &amp;_bigNum2)</argsstring>
+        <name>operator|</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bitwise OR operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Another <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> value of OR operation </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BigNumber.cpp" line="871" column="1" bodyfile="src/BigNumber.cpp" bodystart="871" bodyend="899"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a991aa6b41e534b73bab66446db5909b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::operator ^</definition>
+        <argsstring>(const BigNumber &amp;_bigNum1, const BigNumber &amp;_bigNum2)</argsstring>
+        <name>operator ^</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bitwise XOR operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_bigNum2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Another <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> value of XOR operation </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BigNumber.cpp" line="901" column="1" bodyfile="src/BigNumber.cpp" bodystart="901" bodyend="929"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a7fae187d94a5f4c3869ca24f68826cef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::operator&lt;&lt;</definition>
+        <argsstring>(const BigNumber &amp;_bigNum, int numOfPlaces)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numOfPlaces</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bitwise left shift <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>numOfPlaces</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>amount of places to shift </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> value of shifting bits to the left </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BigNumber.cpp" line="931" column="1" bodyfile="src/BigNumber.cpp" bodystart="931" bodyend="940"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a461540d97b6da48dc4f771ab6c41a5f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::operator &gt;&gt;</definition>
+        <argsstring>(const BigNumber &amp;_bigNum, int numOfPlaces)</argsstring>
+        <name>operator &gt;&gt;</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numOfPlaces</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bitwise right shift <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>numOfPlaces</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>amount of places to shift </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> value of shifting bits to the right </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BigNumber.cpp" line="942" column="1" bodyfile="src/BigNumber.cpp" bodystart="942" bodyend="951"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_big_nums_1a9bdd811316d31ba358ef97ee09cbb011" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref></type>
+        <definition>BigNumber BigNums::operator ~</definition>
+        <argsstring>(const BigNumber &amp;_bigNum)</argsstring>
+        <name>operator ~</name>
+        <param>
+          <type>const <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> &amp;</type>
+          <declname>_bigNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Bitwise NOT operator <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_bigNum</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current instance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para><ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> value of inverted bits </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/BigNumber.cpp" line="953" column="1" bodyfile="src/BigNumber.cpp" bodystart="953" bodyend="971"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="namespace_big_nums" kindref="compound">BigNums</ref> namspace<linebreak/>
+Namspace in which the <ref refid="class_big_nums_1_1_big_number" kindref="compound">BigNumber</ref> class and<linebreak/>
+library functions are contained </para>
+    </detaileddescription>
+    <location file="headers/BigNumber.h" line="14" column="1"/>
+  </compounddef>
+</doxygen>

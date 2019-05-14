@@ -1,0 +1,89 @@
+.TH "headers/BigNumber.h" 3 "Tue May 14 2019" "Big Numbers Library" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+headers/BigNumber.h
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <vector>\fP
+.br
+\fC#include <string>\fP
+.br
+\fC#include <iostream>\fP
+.br
+\fC#include <typeinfo>\fP
+.br
+
+.SS "Classes"
+
+.in +1c
+.ti -1c
+.RI "class \fBBigNums::BigNumber\fP"
+.br
+.in -1c
+.SS "Namespaces"
+
+.in +1c
+.ti -1c
+.RI " \fBBigNums\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "template<typename T , typename U > BigNumber \fBBigNums::Add\fP (const T &_addend1, const U &_addend2)"
+.br
+.ti -1c
+.RI "template<typename T , typename U > BigNumber \fBBigNums::Subtract\fP (const T &_minuend, const U &_subtrahend)"
+.br
+.ti -1c
+.RI "template<typename T , typename U > BigNumber \fBBigNums::Multiply\fP (const T &_multiplicand, const U &_multiplier)"
+.br
+.ti -1c
+.RI "template<typename T , typename U > BigNumber \fBBigNums::Divide\fP (const T &_dividend, const U &_divisor)"
+.br
+.ti -1c
+.RI "template<typename T , typename U > BigNumber \fBBigNums::GetRemainder\fP (const T &_dividend, const U &_divisor)"
+.br
+.ti -1c
+.RI "template<typename T , typename U > BigNumber \fBBigNums::Increment\fP (BigNumber &_bigNum, const U &_amount)"
+.br
+.ti -1c
+.RI "template<typename T , typename U > BigNumber \fBBigNums::Decrement\fP (T &_bigNum, const U &_amount)"
+.br
+.ti -1c
+.RI "template<typename T , typename U > BigNumber \fBBigNums::Max\fP (const T &_bigNum1, const U &_bigNum2)"
+.br
+.ti -1c
+.RI "template<typename T , typename U > BigNumber \fBBigNums::Min\fP (const T &_bigNum1, const U &_bigNum2)"
+.br
+.ti -1c
+.RI "template<typename T > BigNumber \fBBigNums::Abs\fP (const T &_bigNum)"
+.br
+.ti -1c
+.RI "template<typename T , typename U , typename V > BigNumber \fBBigNums::MultAdd\fP (const T &_bigNum1, const U &_bigNum2, const V &_bigNum3)"
+.br
+.ti -1c
+.RI "template<typename T , typename U > BigNumber \fBBigNums::Difference\fP (const T &_bigNum1, const U &_bigNum2)"
+.br
+.ti -1c
+.RI "template<typename T > bool \fBBigNums::IsNumber\fP (const T &_bigNumber)"
+.br
+.ti -1c
+.RI "template<typename T > bool \fBBigNums::IsBigNumber\fP (const T &_number)"
+.br
+.ti -1c
+.RI "template<typename T > bool \fBBigNums::IsNegative\fP (const T &_bigNumber)"
+.br
+.ti -1c
+.RI "template<typename T > bool \fBBigNums::IsPositive\fP (const T &_bigNumber)"
+.br
+.ti -1c
+.RI "BigNumber \fBBigNums::ConvertBinaryValue\fP (const BigNumber &_binaryNum)"
+.br
+.in -1c
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Big Numbers Library from the source code\&.
