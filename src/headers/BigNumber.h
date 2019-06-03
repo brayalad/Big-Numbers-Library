@@ -33,13 +33,7 @@ namespace BigNums
          */
         BigNumber();
 
-        explicit BigNumber(char number);
 
-        explicit BigNumber(unsigned char number);
-
-        explicit BigNumber(const char *number);
-
-        explicit BigNumber(std::string number);
 
         explicit BigNumber(short number);
 
@@ -48,6 +42,10 @@ namespace BigNums
         explicit BigNumber(int number);
 
         explicit BigNumber(unsigned int number);
+
+        explicit BigNumber(long number);
+
+        explicit BigNumber(unsigned long number);
 
         explicit BigNumber(long long number);
 
@@ -58,6 +56,14 @@ namespace BigNums
         explicit BigNumber(double number);
 
         explicit BigNumber(long double number);
+
+        explicit BigNumber(char number);
+
+        explicit BigNumber(unsigned char number);
+
+        explicit BigNumber(const char *number);
+
+        explicit BigNumber(std::string number);
 
         explicit BigNumber(const std::vector<char> &number);
 

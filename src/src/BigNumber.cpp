@@ -12,27 +12,6 @@ namespace BigNums
         this->numberValue.push_back('0');
     }
 
-    BigNumber::BigNumber(char number)
-    {
-        this->numberValue.push_back(number);
-    }
-
-    BigNumber::BigNumber(unsigned char number)
-    {
-        this->numberValue.push_back(number);
-    }
-
-    BigNumber::BigNumber(const char *number)
-    {
-        std::string numberValueString = std::string(number);
-        this->numberValue = std::vector<char>(numberValueString.begin(), numberValueString.end());
-    }
-
-    BigNumber::BigNumber(std::string number)
-    {
-        this->numberValue = std::vector<char>(number.begin(), number.end());
-    }
-
     BigNumber::BigNumber(short number)
     {
         std::string numberValueString = std::to_string(number);
@@ -52,6 +31,18 @@ namespace BigNums
     }
 
     BigNumber::BigNumber(unsigned int number)
+    {
+        std::string numberValueString = std::to_string(number);
+        this->numberValue = std::vector<char>(numberValueString.begin(), numberValueString.end());
+    }
+
+    BigNumber::BigNumber(long number)
+    {
+        std::string numberValueString = std::to_string(number);
+        this->numberValue = std::vector<char>(numberValueString.begin(), numberValueString.end());
+    }
+
+    BigNumber::BigNumber(unsigned long number)
     {
         std::string numberValueString = std::to_string(number);
         this->numberValue = std::vector<char>(numberValueString.begin(), numberValueString.end());
@@ -87,6 +78,27 @@ namespace BigNums
         this->numberValue = std::vector<char>(numberValueString.begin(), numberValueString.end());
     }
 
+    BigNumber::BigNumber(char number)
+    {
+        this->numberValue.push_back(number);
+    }
+
+    BigNumber::BigNumber(unsigned char number)
+    {
+        this->numberValue.push_back(number);
+    }
+
+    BigNumber::BigNumber(const char *number)
+    {
+        std::string numberValueString = std::string(number);
+        this->numberValue = std::vector<char>(numberValueString.begin(), numberValueString.end());
+    }
+
+    BigNumber::BigNumber(std::string number)
+    {
+        this->numberValue = std::vector<char>(number.begin(), number.end());
+    }
+
     BigNumber::BigNumber(const std::vector<char> &number)
     {
         this->numberValue = number;
@@ -101,6 +113,17 @@ namespace BigNums
     {
         BigNumber largerNum = _addend > *this ? _addend : *this;
         BigNumber smallerNum = _addend > *this ? *this : _addend;
+
+        if((largerNum < BigNumber(LLONG_MAX) && largerNum > BigNumber(LLONG_MIN)) && (smallerNum < BigNumber(LLONG_MAX) && smallerNum > BigNumber(LLONG_MIN)))
+        {
+            try
+            {
+                long long sum = largerNum.GetInteger + smallerNum.GetInteger;
+
+                return BigNumber(sum);
+            }
+            catch(...){}
+        }
 
         //This block handles addition if any of the numbers are a negative value
         if (largerNum.IsNegative() || smallerNum.IsNegative())
@@ -173,6 +196,17 @@ namespace BigNums
     {
         BigNumber minuend = *this;
         BigNumber subtrahend = _subtrahend;
+
+        if((minuend< BigNumber(LLONG_MAX) && minuend > BigNumber(LLONG_MIN)) && (subtrahend < BigNumber(LLONG_MAX) && subtrahend > BigNumber(LLONG_MIN)))
+        {
+            try
+            {
+                long long difference = minuend.GetInteger - subtrahend.GetInteger;
+
+                return BigNumber(difference);
+            }
+            catch(...){}
+        }
 
         //Handles subtraction if dealing with a negative value
         if (minuend.IsNegative() || subtrahend.IsNegative())
@@ -339,7 +373,7 @@ namespace BigNums
             std::vector<char> remainingDigits;
             if (minuIndex == 0) //Copies the digit that unless the first numbers front digit if it is 0. Done to avoid placing digits in wrong place
             {
-                if (minuend.numberValue[minuIndex] - '0' != 0) //
+                if (minuend.numberValue[minuIndex] - '0' != 0) 
                 {
                     remainingDigits.push_back(minuend.numberValue[minuIndex]);
 
@@ -377,6 +411,17 @@ namespace BigNums
     {
         BigNumber largerNum = _multiplier > *this ? _multiplier : *this;
         BigNumber smallerNum = _multiplier > *this ? *this : _multiplier;
+
+        if((largerNum < BigNumber(LLONG_MAX) && largerNum > BigNumber(LLONG_MIN)) && (smallerNum < BigNumber(LLONG_MAX) && smallerNum > BigNumber(LLONG_MIN)))
+        {
+            try
+            {
+                long long product = largerNum.GetInteger * smallerNum.GetInteger;
+
+                return BigNumber(product);
+            }
+            catch(...){}
+        }
 
         //Deals with multiplication if any are negative numbers
         if (largerNum.IsNegative() || smallerNum.IsNegative())
@@ -496,6 +541,17 @@ namespace BigNums
         BigNumber divisor = _divisor;
         bool quotientIsNegative = false; //Boolean flag to remember if the quotient needs to be negated
 
+        if((dividend < BigNumber(LLONG_MAX) && dividend > BigNumber(LLONG_MIN)) && (divisor < BigNumber(LLONG_MAX) && divisor > BigNumber(LLONG_MIN)))
+        {
+            try
+            {
+                long long quotient = dividend.GetInteger / divisor.GetInteger;
+
+                return BigNumber(quotient);
+            }
+            catch(...){}
+        }
+
         //Handles division if any of the numbers are negative
         if(dividend.IsNegative() || divisor.IsNegative())
         {
@@ -542,6 +598,17 @@ namespace BigNums
         BigNumber dividend = *this;
         BigNumber divisor = _divisor;
         bool remainderIsNegative = false;
+
+        if((dividend < BigNumber(LLONG_MAX) && dividend > BigNumber(LLONG_MIN)) && (divisor < BigNumber(LLONG_MAX) && divisor > BigNumber(LLONG_MIN)))
+        {
+            try
+            {
+                long long remainder = dividend.GetInteger % divisor.GetInteger;
+
+                return BigNumber(remainder);
+            }
+            catch(...){}
+        }
 
         if(dividend.IsNegative() || divisor.IsNegative())
         {
